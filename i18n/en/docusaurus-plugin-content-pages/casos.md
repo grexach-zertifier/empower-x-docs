@@ -1,28 +1,101 @@
 ---
 title: Casos
-description: Exemples reals i patrons per aplicar el projecte.
+description: Real-world examples and patterns to apply the project.
 slug: /casos
 ---
 
-# Casos
+import Link from '@docusaurus/Link';
 
-Explora com diferents equips apliquen el projecte en diversos contextos. Cada cas destaca objectius, enfocament i resultats.
+# Cases
 
-## Casos destacats
-### Desplegament greenfield
-- Objectiu: llançar un servei nou amb bones pràctiques des del primer dia
-- Enfocament: configuració mínima, desplegament automatitzat
-- Resultat: iteració més ràpida i menys regressions
+Explore how teams apply the project in different contexts. Our agriculture data space is already deployed for soil data analysis on fields in the Azores Islands (Portugal). Here you will find cards per field/service with access to datasets, algorithms, and granular access policies, all under data sovereignty with Compute‑to‑Data.
 
-### Modernització de llegat
-- Objectiu: millorar un sistema existent de manera incremental
-- Enfocament: patró estrangulador, mètriques primer, desplegaments segurs
-- Resultat: menys incidents i millores de rendiment mesurables
+## Featured cases
 
-## Patrons que veuràs
-- Propietat i límits clars
-- Observabilitat des de l'inici
-- Passos petits i reversibles amb feedback continu
+<div className="container casos-page">
+  <div className="row">
+    {/* Card 1 */}
+    <div className="col col--12 margin-bottom--lg">
+      <div className="card">
+        <div className="card__header">
+          <h3>Azores Field 1 — Soil analysis</h3>
+        </div>
+        <div className="card__body">
+          <p>
+            Agricultural field soil analysis with trusted algorithms in a Compute‑to‑Data environment{' '} 
+            <Link to="/documentacion/use-cases">More info</Link>
+          </p>
+        </div>
+        <div className="card__footer">
+          <div className="button-group button-group--block">
+            <a className="button button--primary" href="#">Dataset</a>
+            <a className="button button--secondary" href="#">Algorithm</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-## Comparteix la teva història
-Tens un cas per afegir? Obre un PR amb un resum, context i aprenentatges clau.
+    {/* Card 2 */}
+    <div className="col col--12 margin-bottom--lg">
+      <div className="card">
+        <div className="card__header">
+          <h3>Azores Field 2 — Soil analysis</h3>
+        </div>
+        <div className="card__body">
+          <p>
+            Agricultural field soil analysis with trusted algorithms in a Compute‑to‑Data environment{' '}
+            <Link to="/documentacion/use-cases">More info</Link>
+          </p>
+        </div>
+        <div className="card__footer">
+          <div className="button-group button-group--block">
+            <a className="button button--primary" href="#">Dataset</a>
+            <a className="button button--secondary" href="#">Algorithm</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Card 3 */}
+    <div className="col col--12 margin-bottom--lg">
+      <div className="card">
+        <div className="card__header">
+          <h3>Azores Field 3 — Soil analysis</h3>
+        </div>
+        <div className="card__body">
+          <p>
+            Agricultural field soil analysis with trusted algorithms in a Compute‑to‑Data environment{' '}
+            <Link to="/documentacion/use-cases">More info</Link>
+          </p>
+        </div>
+        <div className="card__footer">
+          <div className="button-group button-group--block">
+            <a className="button button--primary" href="#">Dataset</a>
+            <a className="button button--secondary" href="#">Algorithm</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Card 4 */}
+    <div className="col col--12 margin-bottom--lg">
+      <div className="card">
+        <div className="card__header">
+          <h3>Azores Field 4 — Soil analysis</h3>
+        </div>
+        <div className="card__body">
+          <p>
+            Agricultural field soil analysis with trusted algorithms in a Compute‑to‑Data environment{' '}
+            <Link to="/documentacion/use-cases">More info</Link>
+          </p>
+        </div>
+        <div className="card__footer">
+          <div className="button-group button-group--block">
+            <a className="button button--primary" href="#">Dataset</a>
+            <a className="button button--secondary" href="#">Algorithm</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

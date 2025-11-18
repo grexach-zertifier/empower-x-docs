@@ -4,9 +4,11 @@ description: Ejemplos y patrones del mundo real para aplicar el proyecto.
 slug: /casos
 ---
 
+import Link from '@docusaurus/Link';
+
 # Casos
 
-Explora cómo los equipos aplican el proyecto en diferentes contextos. A continuación verás dos casos de ejemplo a modo de tarjetas.
+Explora cómo los equipos aplican el proyecto en diferentes contextos. Nuestro dataspace para agricultura ya está desplegado para análisis de datos de suelo en parcelas de las Islas Azores (Portugal). Aquí encontrarás tarjetas por parcela/servicio con acceso a datasets, algoritmos y políticas de acceso granular, todo bajo soberanía del dato y con Compute-to-Data.
 
 ## Casos destacados
 
@@ -16,12 +18,12 @@ Explora cómo los equipos aplican el proyecto en diferentes contextos. A continu
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
         <div className="card__header">
-          <h3>Prueba Caso 1</h3>
+          <h3>Parcela Azores 1 — Análisis de suelos</h3>
         </div>
         <div className="card__body">
           <p>
-            Un breve resumen aleatorio del caso: integración de datos de múltiples fuentes,
-            evaluación rápida y resultados demostrables en poco tiempo.
+            Análisis de suelo de campo agrícola con algoritmos de confianza en un entorno Compute-to-Data.{' '}
+            <Link to="/documentacion/use-cases">Más info</Link>
           </p>
         </div>
         <div className="card__footer">
@@ -37,12 +39,12 @@ Explora cómo los equipos aplican el proyecto en diferentes contextos. A continu
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
         <div className="card__header">
-          <h3>Prueba Caso 2</h3>
+          <h3>Parcela Azores 2 — Análisis de suelos</h3>
         </div>
         <div className="card__body">
           <p>
-            Descripción de ejemplo: prueba con un conjunto de datos sintético, comparación
-            de enfoques y selección del mejor algoritmo según métricas clave.
+            Análisis de suelo de campo agrícola con algoritmos de confianza en un entorno Compute-to-Data.{' '}
+            <Link to="/documentacion/use-cases">Más info</Link>
           </p>
         </div>
         <div className="card__footer">
@@ -58,12 +60,12 @@ Explora cómo los equipos aplican el proyecto en diferentes contextos. A continu
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
         <div className="card__header">
-          <h3>Prueba Caso 3</h3>
+          <h3>Parcela Azores 3 — Análisis de suelos</h3>
         </div>
         <div className="card__body">
           <p>
-            Descripción de ejemplo: prueba con un conjunto de datos sintético, comparación
-            de enfoques y selección del mejor algoritmo según métricas clave.
+            Análisis de suelo de campo agrícola con algoritmos de confianza en un entorno Compute-to-Data.{' '}
+            <Link to="/documentacion/use-cases">Más info</Link>
           </p>
         </div>
         <div className="card__footer">
@@ -79,12 +81,12 @@ Explora cómo los equipos aplican el proyecto en diferentes contextos. A continu
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
         <div className="card__header">
-          <h3>Prueba Caso 4</h3>
+          <h3>Parcela Azores 4 — Análisis de suelos</h3>
         </div>
         <div className="card__body">
           <p>
-            Descripción de ejemplo: prueba con un conjunto de datos sintético, comparación
-            de enfoques y selección del mejor algoritmo según métricas clave.
+            Análisis de suelo de campo agrícola con algoritmos de confianza en un entorno Compute-to-Data.{' '}
+            <Link to="/documentacion/use-cases">Más info</Link>
           </p>
         </div>
         <div className="card__footer">
