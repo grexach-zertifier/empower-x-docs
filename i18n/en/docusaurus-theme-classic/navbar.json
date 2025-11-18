@@ -1,8 +1,8 @@
 {
-  "title": {"message": "", "description": "Títol a la barra superior"},
-  "logo.alt": {"message": "Logo del Meu Lloc", "description": "Text alternatiu del logo a la barra superior"},
-  "item.label.Documentation": {"message": "Documentació", "description": "Element de la barra: Documentation"},
-  "item.label.Cases": {"message": "Casos", "description": "Element de la barra: Cases"},
-  "item.label.Videos": {"message": "Vídeos", "description": "Element de la barra: Videos"},
-  "item.label.Contact": {"message": "Contacte", "description": "Element de la barra: Contact"}
+  "title": {"message": "", "description": "Top bar title"},
+  "logo.alt": {"message": "Logo", "description": "Logo alt text in the top bar"},
+  "item.label.Documentación": {"message": "Documentation", "description": "Navbar item: Documentation"},
+  "item.label.Casos": {"message": "Cases", "description": "Navbar item: Cases"},
+  "item.label.Vídeos": {"message": "Videos", "description": "Navbar item: Videos"},
+  "item.label.Contacto": {"message": "Contact", "description": "Navbar item: Contact"}
 }
