@@ -3,121 +3,154 @@ title: Desarrollo de casos de uso en espacios de datos agroalimentarios
 sidebar_label: Desarrollo de casos de uso
 ---
 
-# Desarrollo de casos de uso en espacios de datos
+# Desarrollo de casos de uso en espacios de datos agroalimentarios
 
-Esta guía presenta los pasos clave para diseñar e implementar casos de uso dentro de un espacio de datos agroalimentario. Inspirada en el modelo de la [Oficina del Dato](https://datos.gob.es), proporciona un enfoque práctico para desarrollar soluciones basadas en el intercambio ético, seguro y federado de datos.
+Los espacios de datos permiten construir soluciones colaborativas donde distintos actores del sector agroalimentario pueden combinar datos, algoritmos y servicios bajo un marco común de confianza. Este apartado describe cómo se diseñan y despliegan casos de uso dentro del ecosistema **RegenAg-X**, siguiendo un enfoque práctico y orientado a resultados, basado en modelos europeos de interoperabilidad y soberanía del dato.
 
-Como ejemplo real, contamos con un dataspace desplegado para el análisis de datos de suelo de parcelas agrícolas en las Islas Azores (Portugal). Este entorno facilita la publicación de datasets, la ejecución de algoritmos de confianza y el control granular del acceso a los datos. La información no sale del entorno seguro gracias a mecanismos de Compute-to-Data y políticas auditables. Puedes explorar tarjetas con parcelas y servicios relacionados en la sección de [Casos](/casos), que se irá ampliando conforme se incorporen nuevas fincas y análisis.
+Como referencia operativa, RegenAg-X cuenta con un **dataspace en producción en las Islas Azores (Portugal)**, donde productores locales publican datos de suelo y permiten la ejecución de algoritmos en **Data Rooms seguras** mediante **Compute-to-Data**.  
+Los datos **no abandonan nunca el entorno protegido**, y el acceso se controla mediante políticas verificables y trazables. En la sección de *Casos* pueden consultarse ejemplos reales que se ampliarán a medida que se incorporen nuevas parcelas y análisis.
 
-Los casos de uso permiten dar respuesta a retos concretos del sector agroalimentario, aprovechando el valor que surge al compartir datos entre múltiples actores. Para ello, se apoyan en infraestructuras técnicas comunes y en modelos de gobernanza colaborativa que garantizan la interoperabilidad, la confianza y la soberanía del dato.
+Los casos de uso son el mecanismo principal para resolver retos del sector agroalimentario mediante el intercambio federado de datos. Para ello se apoyan en:
 
-En el marco del proyecto RegenAg-x, se pueden consultar diversos ejemplos reales de casos de uso desarrollados dentro del espacio de datos agroalimentario en la sección de [Casos](/casos).
+* una infraestructura técnica común (identidades Web3, catálogos, conectores, Data Rooms, marketplace),  
+* un modelo de gobernanza compartido,  
+* y reglas transparentes que garantizan la soberanía del dato y la interoperabilidad entre participantes.
 
-## Fases para el desarrollo de un caso de uso
+---
 
-El desarrollo de un caso de uso dentro de un espacio de datos sigue un modelo estructurado en 8 fases [1]. Estas fases garantizan que la solución sea viable, escalable y sostenible, además de alinearse con los principios de interoperabilidad, confianza y soberanía del dato.
+## Metodología para desarrollar un caso de uso
 
-### 1. Definición del problema de negocio
+El desarrollo de un caso de uso dentro de un espacio de datos sigue un ciclo estructurado en fases. Este ciclo permite garantizar que la solución es factible, escalable y compatible con los principios de los dataspaces europeos.
 
-Un conjunto de participantes identifica una oportunidad común para compartir y explotar datos. Esta oportunidad puede enfocarse en:
+A continuación se describen las **ocho fases** del proceso de desarrollo en RegenAg-X, expresadas de forma independiente respecto a modelos externos pero conceptualmente alineadas con las buenas prácticas de la Oficina del Dato.
 
-- Nuevos productos o servicios.
-- Mejora de la eficiencia operativa.
-- Resolución conjunta de retos del sector.
+---
 
-### 2. Modelización basada en datos
+### 1. Identificación del reto y de la oportunidad
 
-Se estructura la información relevante para tomar decisiones informadas. Esta fase incluye:
+Los participantes detectan una necesidad común o un área de mejora que podría resolverse compartiendo datos.  
+Las motivaciones suelen agruparse en tres bloques:
 
-- Definir un modelo de datos.
-- Incorporar herramientas como inteligencia artificial o analítica avanzada.
-- Enfocar el desarrollo en decisiones data-driven.
+* creación de un nuevo servicio o producto,  
+* optimización operativa o automatización,  
+* colaboración para solucionar problemas complejos del sector.
 
-### 3. Consenso y requisitos
+---
 
-Se construye un modelo de colaboración entre los participantes:
+### 2. Comprensión y estructuración de los datos disponibles
 
-- Acuerdo sobre reglas de participación.
-- Establecimiento de políticas comunes.
-- Definición de un modelo de gobernanza y confianza.
+Se analiza qué datos existen, quién los tiene, qué nivel de calidad presentan y cómo deben organizarse para apoyar el caso de uso.  
+Aquí se definen:
 
-### 4. Diseño técnico del caso de uso
+* la estructura del modelo de datos,  
+* qué fuentes se combinarán,  
+* si se emplearán técnicas avanzadas como IA, predicción o simulación.
 
-Se elabora un plano técnico que recoge las soluciones y acuerdos alcanzados. Este plano se puede basar en:
+---
 
-- Modelos ya existentes.
-- Plantillas o componentes reutilizables.
-- Recomendaciones técnicas comunes del espacio de datos.
+### 3. Alineamiento entre participantes
 
-### 5. Construcción de la solución
+Los actores implicados acuerdan las reglas básicas del caso:
 
-Se desarrolla la solución basada en el plano diseñado. El caso de uso puede reutilizar o adaptar tecnologías existentes para ganar eficiencia.
+* condiciones de participación,  
+* políticas de acceso y permisos,  
+* expectativas de valor,  
+* y estructura de gobernanza.
 
-### 6. Desarrollo tecnológico
+El objetivo es construir un marco común que facilite la confianza desde el principio.
 
-Se seleccionan e integran las herramientas necesarias para habilitar el ciclo de vida del dato:
+---
 
-- Plataformas e infraestructuras.
-- Componentes de interoperabilidad.
-- Herramientas de acceso, gobernanza, trazabilidad, etc.
+### 4. Diseño funcional y técnico del caso
 
-### 7. Integración y despliegue
+Se elabora un documento que describe:
 
-- El caso de uso se integra en el espacio de datos (si ya existe uno).
-- Se realizan pruebas funcionales y de aceptación.
-- Se asegura el cumplimiento de acuerdos y requisitos antes de la puesta en marcha.
+* qué se va a hacer,  
+* cómo se va a hacer,  
+* qué componentes del espacio de datos se utilizarán (Compute-to-Data, Data Rooms, marketplace, catálogos, etc.),  
+* y qué integraciones serán necesarias.
 
-### 8. Operación y escalado
+Este diseño puede basarse en patrones existentes o en componentes modulares del ecosistema Gaia-X y Ocean Enterprise.
 
-El caso de uso está en funcionamiento y genera valor real:
+---
 
-- Puede escalar a otros actores o casos similares.
-- El espacio de datos crece de forma federada y sostenible.
-- Se activa un modelo de mejora continua.
+### 5. Desarrollo de la solución
 
-## Evaluación y diseño de casos de uso
+A partir del diseño, se construye la solución:
 
-Una vez entendidas las fases clave del desarrollo de un caso de uso dentro de un espacio de datos, es fundamental contar con herramientas metodológicas que ayuden a evaluar su viabilidad y a diseñarlo adecuadamente. Para ello, la Oficina del Dato ha publicado dos guías complementarias que facilitan este proceso [2]:
+* desarrollo o adaptación de algoritmos,  
+* creación de pipelines de datos,  
+* implementación de servicios automatizados,  
+* definición de métricas y paneles de control.
 
-- Una para evaluar la viabilidad de un caso de uso.
-- Otra para diseñar su implementación.
+Cuando es posible, se reutilizan componentes existentes para acelerar el desarrollo.
 
-Estas guías ayudan a transformar una idea inicial en un caso de uso escalable, sostenible y alineado con los principios de los espacios de datos.
+---
 
-### Evaluación de viabilidad
+### 6. Integración de tecnologías y servicios
 
-Esta guía permite generar, describir y evaluar ideas de casos de uso que impliquen compartición de datos. Propone una metodología en cinco pasos clave, cuyo objetivo final es tomar una decisión sobre la viabilidad del escenario planteado:
+En esta fase se ensamblan todos los elementos necesarios:
 
-1. Generación del caso de uso: identificar una necesidad concreta susceptible de resolverse mediante el intercambio de datos.
-2. Definición del alcance: delimitar los objetivos, los actores implicados y los beneficios esperados.
-3. Evaluación del potencial: analizar el valor añadido que puede aportar el caso en términos sociales, económicos o medioambientales.
-4. Estudio de la complejidad de la interacción: evaluar el nivel de colaboración necesario entre los distintos agentes.
-5. Decisión final de viabilidad: en base a los pasos anteriores, determinar si tiene sentido avanzar hacia su diseño e implementación.
+* conectores de interoperabilidad,  
+* identidades verificables,  
+* catálogos y descripciones semánticas,  
+* servicios de gobernanza y auditoría,  
+* infraestructura de computación segura.
 
-> La guía incluye una plantilla de hoja de cálculo con preguntas clave que ayudan a cumplimentar cada etapa de manera sistemática. Descargar plantilla de evaluación de viabilidad.
+El objetivo es asegurar el ciclo completo del dato dentro del espacio de datos.
 
-### Diseño del caso de uso
+---
 
-Si el caso de uso resulta viable, la siguiente etapa consiste en su diseño detallado, con foco en su escalabilidad y reutilización futura.
+### 7. Despliegue y validación
 
-La guía aborda el diseño mediante las siguientes acciones:
+El caso de uso se integra en el espacio de datos RegenAg-X, donde se llevan a cabo:
 
-- Definir objetivo y alcance con precisión.
-- Identificar las funcionalidades necesarias para compartir y explotar datos.
-- Establecer los habilitadores tecnológicos, organizativos y legales.
+* pruebas funcionales,  
+* pruebas de acceso con políticas reales,  
+* validación de Compute-to-Data,  
+* verificaciones de cumplimiento y trazabilidad,  
+* y aceptación final de los participantes.
 
-> También se proporciona una hoja de cálculo con preguntas clave para facilitar el diseño, así como ejemplos reales. Descargar plantilla de diseño de caso de uso.
+Solo cuando todo esto se valida, el caso pasa a operación.
 
-## Conclusión
+---
 
-Las dos guías publicadas por la Oficina del Dato ofrecen un marco metodológico claro, práctico y aplicable para desarrollar casos de uso en espacios de datos, desde la idea inicial hasta su puesta en marcha.
+### 8. Operación, escalado y mejora continua
 
-Su combinación permite asegurar que los casos de uso no solo son viables, sino también escalables, sostenibles e implementables en contextos reales. Esto resulta especialmente relevante en el ámbito agroalimentario, donde la colaboración entre actores y el intercambio de datos son esenciales para impulsar una transformación digital justa, eficiente y alineada con los principios de soberanía y confianza.
+Con el caso ya operativo:
 
-Así, cualquier entidad interesada en participar en un espacio de datos dispone de un camino estructurado para evaluar, diseñar y desplegar casos de uso que generen valor real.
+* se mide el valor generado,  
+* se identifican mejoras,  
+* se amplía el caso a nuevos actores o datasets,  
+* y se integran nuevos servicios o algoritmos.
 
-## Referencias
+Este ciclo permite que el espacio de datos crezca **federadamente**, sin perder soberanía ni control.
 
-[1] Modelo de desarrollo de casos de uso para espacios de datos – datos.gob.es. Disponible en: https://datos.gob.es/es/blog/modelo-de-desarrollo-de-casos-de-uso-para-espacios-de-datos
+---
 
-[2] Cómo evaluar y diseñar casos de uso – datos.gob.es. Disponible en: https://datos.gob.es/es/actualidad/como-evaluar-y-disenar-casos-de-uso-para-compartir-datos
+## Evaluación y diseño de casos de uso: herramientas metodológicas
+
+Para apoyar este proceso, es habitual utilizar dos tipos de herramientas metodológicas:
+
+### 1. Evaluación de viabilidad
+
+Ayuda a determinar si un caso de uso tiene sentido antes de invertir recursos. Incluye:
+
+* identificación del reto,  
+* análisis del valor añadido (económico, ambiental, social),  
+* estudio de la colaboración necesaria,  
+* análisis de riesgos y complejidad,  
+* decisión final de avanzar o descartar.
+
+### 2. Diseño detallado del caso
+
+Una vez confirmada la viabilidad, se profundiza en:
+
+* alcance,  
+* funcionalidades,  
+* requisitos legales y técnicos,  
+* recursos necesarios,  
+* arquitectura de integración,  
+* definición de políticas de acceso y uso.
+
+La combinación de ambas herramientas permite pasar de una idea a un caso de uso implementable y escalable dentro del dataspace.

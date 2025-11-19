@@ -3,121 +3,158 @@ title: Desenvolupament de casos d'ús en espais de dades agroalimentaris
 sidebar_label: Desenvolupament de casos d'ús
 ---
 
-# Desenvolupament de casos d'ús en espais de dades
+# Desenvolupament de casos d’ús en espais de dades agroalimentaris
 
-Aquesta guia presenta els passos clau per dissenyar i implementar casos d'ús dins d'un espai de dades agroalimentari. Inspirada en el model de l'[Oficina del Dato](https://datos.gob.es), proporciona un enfocament pràctic per desenvolupar solucions basades en el compartiment ètic, segur i federat de dades.
+Els espais de dades permeten construir solucions col·laboratives on diferents actors del sector agroalimentari poden combinar conjunts de dades, algoritmes i serveis dins d’un marc compartit de confiança. Aquesta secció explica com es dissenyen i es despleguen casos d’ús dins de l’ecosistema **RegenAg-X**, seguint una metodologia pràctica i orientada a resultats, alineada amb els principis europeus de sobirania del dada i arquitectures federades interoperables.
 
-Com a exemple real, disposem d'un espai de dades desplegat per a l'anàlisi de dades de sòl de parcel·les agrícoles a les Illes Açores (Portugal). Aquest entorn permet publicar datasets, executar algoritmes de confiança i aplicar control granular d'accés. La informació no surt de l'entorn segur gràcies a mecanismes de Compute‑to‑Data i polítiques auditables. Pots explorar targetes de parcel·la/servei a la secció de [Casos](/casos), que creixerà a mesura que s'afegeixin noves parcel·les i anàlisis.
+Com a referència operativa real, RegenAg-X disposa d’un **espai de dades en producció a les Illes Açores (Portugal)**, on productors locals publiquen dades de sòl i permeten l’execució d’algoritmes en **Data Rooms segures** mitjançant **Compute-to-Data**.  
+Les dades **no surten mai de l’entorn protegit**, i l’accés es controla mitjançant polítiques verificables i auditables. A l’apartat de *Casos* es poden consultar exemples reals, que s’aniran ampliant a mesura que s’incorporin noves parcel·les, serveis i datasets.
 
-Els casos d'ús permeten donar resposta a reptes concrets del sector agroalimentari, aprofitant el valor que sorgeix en compartir dades entre múltiples actors. Per a això, es recolzen en infraestructures tècniques comunes i en models de governança col·laborativa que garanteixen la interoperabilitat, la confiança i la sobirania de la dada.
+Els casos d’ús són el mecanisme principal per donar resposta a reptes concrets del sector agroalimentari, aprofitant el valor que emergeix quan les dades es comparteixen entre diversos actors. Per assolir-ho, es basen en:
 
-En el marc del projecte RegenAg‑x, es poden consultar diversos exemples reals de casos d'ús desenvolupats dins de l'espai de dades agroalimentari a la secció de [Cases](/casos).
+* una infraestructura tècnica comuna (identitats Web3, catàlegs, connectors, Data Rooms, marketplace),  
+* un model de governança compartit,  
+* i polítiques transparents que garanteixen la sobirania del dada i la interoperabilitat.
 
-## Fases per al desenvolupament d'un cas d'ús
+---
 
-El desenvolupament d'un cas d'ús dins d'un espai de dades segueix un model estructurat en 8 fases [1]. Aquestes fases garanteixen que la solució sigui viable, escalable i sostenible, a més d'alinear‑se amb els principis d'interoperabilitat, confiança i sobirania de la dada.
+## Metodologia per desenvolupar un cas d’ús
 
-### 1. Definició del problema de negoci
+El desenvolupament d’un cas d’ús dins d’un espai de dades segueix un procés estructurat en fases. Aquest procés assegura que la solució és viable, escalable i coherent amb els principis tècnics i organitzatius dels espais de dades europeus.
 
-Un conjunt de participants identifica una oportunitat comuna per compartir i explotar dades. Aquesta oportunitat pot enfocar‑se en:
+A continuació es descriuen les **vuit fases** utilitzades a RegenAg-X, formulades de manera original però compatibles amb les bones pràctiques de l’Oficina del Dada i de la comunitat europea de dataspaces.
 
-- Nous productes o serveis.
-- Millora de l'eficiència operativa.
-- Resolució conjunta de reptes del sector.
+---
 
-### 2. Modelització basada en dades
+### 1. Identificació del repte i de l’oportunitat
 
-S'estructura la informació rellevant per prendre decisions informades. Aquesta fase inclou:
+Els participants detecten una necessitat o un àmbit de millora que pot resoldre’s mitjançant la combinació o compartició de dades.  
+Les motivacions més habituals inclouen:
 
-- Definir un model de dades.
-- Incorporar eines com intel·ligència artificial o analítica avançada.
-- Enfocar el desenvolupament en decisions data‑driven.
+* crear un nou producte o servei,  
+* millorar l’eficiència operativa o automatitzar processos,  
+* afrontar reptes sectorials que requereixen col·laboració.
 
-### 3. Consens i requisits
+---
 
-Es construeix un model de col·laboració entre els participants:
+### 2. Comprensió i estructuració de les dades disponibles
 
-- Acord sobre regles de participació.
-- Establiment de polítiques comunes.
-- Definició d'un model de governança i confiança.
+En aquesta fase s’analitza:
 
-### 4. Disseny tècnic del cas d'ús
+* quines dades existeixen,  
+* qui n’és el titular,  
+* quin nivell de qualitat presenten,  
+* i com cal organitzar-les per donar suport al cas d’ús.
 
-S'elabora un plànol tècnic que recull les solucions i acords assolits. Aquest plànol es pot basar en:
+També es defineixen:
 
-- Models ja existents.
-- Plantilles o components reutilitzables.
-- Recomanacions tècniques comunes de l'espai de dades.
+* el model de dades,  
+* les fonts que s’utilitzaran,  
+* i si s’empraran tècniques avançades com IA, predicció o simulació.
+
+---
+
+### 3. Alineament entre participants
+
+Els actors implicats acorden el marc de col·laboració:
+
+* condicions de participació,  
+* polítiques d’accés i d’ús,  
+* expectatives de valor,  
+* i els elements bàsics de governança.
+
+L’objectiu és establir unes bases clares i compartides abans de començar la part tècnica.
+
+---
+
+### 4. Disseny funcional i tècnic
+
+Es redacta un document de disseny que especifica:
+
+* la finalitat i el flux operatiu del cas d’ús,  
+* quins components de l’espai de dades s’utilitzaran (Compute-to-Data, Data Rooms, catàlegs, marketplace…),  
+* les necessitats d’integració i requisits d’interoperabilitat.
+
+Aquest disseny pot reutilitzar patrons existents o components modulars dels ecosistemes Gaia-X i Ocean Enterprise.
+
+---
 
 ### 5. Construcció de la solució
 
-Es desenvolupa la solució basada en el plànol dissenyat. El cas d'ús pot reutilitzar o adaptar tecnologies existents per guanyar eficiència.
+A partir del disseny aprovat, es desenvolupa la solució:
 
-### 6. Desenvolupament tecnològic
+* implementació o adaptació d’algoritmes,  
+* creació de pipelines de dades,  
+* automatització de processos,  
+* definició de mètriques i quadres de comandament.
 
-Se seleccionen i integren les eines necessàries per habilitar el cicle de vida de la dada:
+Sempre que és possible, es reutilitzen components ja existents per accelerar el desenvolupament.
 
-- Plataformes i infraestructures.
-- Components d'interoperabilitat.
-- Eines d'accés, governança, traçabilitat, etc.
+---
 
-### 7. Integració i desplegament
+### 6. Integració de tecnologies i serveis
 
-- El cas d'ús s'integra a l'espai de dades (si ja n'hi ha un).
-- Es fan proves funcionals i d'acceptació.
-- S'assegura el compliment d'acords i requisits abans de la posada en marxa.
+En aquesta fase s’integren tots els elements necessaris per habilitar el cicle complet del dada:
 
-### 8. Operació i escalat
+* connectors d’interoperabilitat,  
+* identitats verificables,  
+* catàlegs semàntics i metadades,  
+* serveis de governança i auditoria,  
+* infraestructura de computació segura (Compute-to-Data, Data Rooms).
 
-El cas d'ús està en funcionament i genera valor real:
+L’objectiu és assegurar el funcionament d’extrem a extrem dins de l’espai de dades.
 
-- Pot escalar a altres actors o casos similars.
-- L'espai de dades creix de manera federada i sostenible.
-- S'activa un model de millora contínua.
+---
 
-## Avaluació i disseny de casos d'ús
+### 7. Desplegament i validació
 
-Un cop enteses les fases clau del desenvolupament d'un cas d'ús dins d'un espai de dades, és fonamental comptar amb eines metodològiques que ajudin a avaluar la seva viabilitat i a dissenyar‑lo adequadament. Per a això, l'Oficina del Dato ha publicat dues guies complementàries que faciliten aquest procés [2]:
+El cas d’ús s’incorpora a l’espai de dades RegenAg-X, on es duen a terme:
 
-- Una per avaluar la viabilitat d'un cas d'ús.
-- Una altra per dissenyar la seva implementació.
+* proves funcionals i d’integració,  
+* proves d’accés amb polítiques reals,  
+* validació del Compute-to-Data,  
+* comprovacions de conformitat i traçabilitat,  
+* i validació final per part dels participants.
 
-Aquestes guies ajuden a transformar una idea inicial en un cas d'ús escalable, sostenible i alineat amb els principis dels espais de dades.
+Només després d’aquestes verificacions el cas d’ús passa a operació.
 
-### Avaluació de viabilitat
+---
 
-Aquesta guia permet generar, descriure i avaluar idees de casos d'ús que impliquin compartició de dades. Proposa una metodologia en cinc passos clau, l'objectiu final de la qual és prendre una decisió sobre la viabilitat de l'escenari plantejat:
+### 8. Operació, escalat i millora contínua
 
-1. Generació del cas d'ús: identificar una necessitat concreta susceptible de resoldre's mitjançant l'intercanvi de dades.
-2. Definició de l'abast: delimitar els objectius, els actors implicats i els beneficis esperats.
-3. Avaluació del potencial: analitzar el valor afegit que pot aportar el cas en termes socials, econòmics o mediambientals.
-4. Estudi de la complexitat de la interacció: avaluar el nivell de col·laboració necessari entre els diferents agents.
-5. Decisió final de viabilitat: en base als passos anteriors, determinar si té sentit avançar cap al seu disseny i implementació.
+Un cop operatiu:
 
-> La guia inclou una plantilla de full de càlcul amb preguntes clau que ajuden a complimentar cada etapa de manera sistemàtica. Descarregar plantilla d'avaluació de viabilitat.
+* es mesura el valor generat,  
+* s’implementen millores,  
+* s’estén el cas d’ús a nous actors o datasets,  
+* i s’hi incorporen nous serveis o algoritmes.
 
-### Disseny del cas d'ús
+Aquest cicle permet que l’espai de dades creixi de manera **federada** preservant sempre la sobirania i la confiança.
 
-Si el cas d'ús resulta viable, la següent etapa consisteix en el seu disseny detallat, amb focus en la seva escalabilitat i reutilització futura.
+---
 
-La guia aborda el disseny mitjançant les accions següents:
+## Eines per a l’avaluació i el disseny de casos d’ús
 
-- Definir objectiu i abast amb precisió.
-- Identificar les funcionalitats necessàries per compartir i explotar dades.
-- Establir els habilitadors tecnològics, organitzatius i legals.
+Per donar suport al procés, s’utilitzen habitualment dos tipus d’eines metodològiques:
 
-> També es proporciona un full de càlcul amb preguntes clau per facilitar el disseny, així com exemples reals. Descarregar plantilla de disseny de cas d'ús.
+### 1. Avaluació de viabilitat
 
-## Conclusió
+Permet determinar si un cas d’ús és adequat abans de destinar-hi recursos. Inclou:
 
-Les dues guies publicades per l'Oficina del Dato ofereixen un marc metodològic clar, pràctic i aplicable per desenvolupar casos d'ús en espais de dades, des de la idea inicial fins a la posada en marxa.
+* identificació del repte,  
+* anàlisi del valor esperat (econòmic, ambiental, social),  
+* requeriments de col·laboració,  
+* riscos i complexitat,  
+* decisió final d’avançar o descartar la idea.
 
-La seva combinació permet assegurar que els casos d'ús no només són viables, sinó també escalables, sostenibles i implementables en contextos reals. Això resulta especialment rellevant en l'àmbit agroalimentari, on la col·laboració entre actors i l'intercanvi de dades són essencials per impulsar una transformació digital justa, eficient i alineada amb els principis de sobirania i confiança.
+### 2. Disseny detallat
 
-Així, qualsevol entitat interessada a participar en un espai de dades disposa d'un camí estructurat per avaluar, dissenyar i desplegar casos d'ús que generin valor real.
+Si la viabilitat és positiva, es defineix el cas d’ús amb detall:
 
-## Referències
+* abast i objectius,  
+* funcionalitats necessàries,  
+* requisits tècnics, organitzatius i legals,  
+* arquitectura d’integració,  
+* polítiques d’accés i d’ús.
 
-[1] Model de desenvolupament de casos d'ús per a espais de dades – datos.gob.es. Disponible a: https://datos.gob.es/es/blog/modelo-de-desarrollo-de-casos-de-uso-para-espacios-de-datos
-
-[2] Com avaluar i dissenyar casos d'ús – datos.gob.es. Disponible a: https://datos.gob.es/es/actualidad/como-evaluar-y-disenar-casos-de-uso-para-compartir-datos
+La combinació d’aquestes dues eines permet passar d’una idea inicial a un cas d’ús escalable i implementable dins del dataspace.

@@ -3,94 +3,174 @@ title: Governance model
 sidebar_label: Governance model
 ---
 
-# Governance model
+# RegenAg-X Governance Model
 
-RegenAg-x will be based on an Organizational Governance system that involves coordination, decision-making, and goal setting within the data space and that fosters collaboration among multiple stakeholders. A Data Space Authority will be established, acting as the entity responsible for operationalizing and maintaining such governance, including managing disputes between participants.
+## 1. General Principles
 
-This authority, at least during the period operating as a demonstrator, will be the University of Lleida as the operator of the data space. Later, it will evolve towards shared governance with participants and options will be explored to establish an alternative Data Space Authority, compatible with also making the operator role sustainable, for example, as a new independent entity.
+RegenAg-X is built on an **Organizational Governance** model designed to coordinate decision-making, define strategic and operational objectives, and ensure effective collaboration across all stakeholders involved in the data space.
 
-On the other hand, there is Data Sharing Governance, which regulates access to data and processing services among participants. The data space operator, as the governance authority, will set the initial rules with the requirements for onboarding participants into the demonstrator and the products and services available within it.
+A **Data Space Authority** is established as the entity responsible for operating and maintaining this governance framework, managing participant onboarding, handling disputes, and ensuring rule compliance.  
+**Zertifier** will act as the **Data Space Authority** throughout the entire demonstrator phase.
 
-Initially, participants will be those listed at the beginning of this section who have already shown interest in the project by signing the letters of support attached to this application. The letters are based on a template that defines the requirements and benefits of being a participant in the demonstrator. From this initial set of participants, new ones will be incorporated, prioritizing those who complement the existing use cases or who make it possible to define new data space use cases.
+As the ecosystem matures, the governance model will progressively evolve toward a **shared governance structure**, where farmers, cooperatives, technology providers and research organizations participate actively in decision-making. In later phases, options for establishing a neutral and sustainable long-term governance entity will be explored.
 
-For new use cases, priority will be given to those that leverage the capabilities of the demonstrator, especially those with trust requirements that can be solved with the sovereignty-by-design functionality through compute-to-data. Also those that show greater potential thanks to the monetization capabilities also provided by the demonstrator.
+---
 
-On the other hand, with regard to data and processing services, governance will define the rules to be followed when sharing data. In addition to being related to the agri-food sector, it will be essential to comply with the regulatory framework established at national and European level.
+## 2. Data Sharing Governance
 
-To maximize interoperability both within the demonstrator's data space and with those with which it will interoperate (those in the Ocean Enterprise ecosystem and others that use Gaia-X data space federation tools), the governance structure will be organized at two levels: a Global Governance that will harmonize interoperability between different data spaces and a specific governance body for the demonstrator, the RegenAg-x Governance.
+Data Sharing Governance regulates access to datasets, services, algorithms and compute capabilities inside the data space.
 
-## Global Governance
+As the Data Space Authority, **Zertifier** will:
 
-Global Governance will mainly be that of the Ocean Enterprise ecosystem as the entity responsible for defining interoperability rules between the data spaces of this ecosystem. Governance is exercised jointly by all participants acting as "federators".
+* define the initial participation criteria,  
+* set the rules for publishing datasets and services,  
+* supervise usage policies and access permissions,  
+* ensure compliance with the European regulatory framework (GDPR, DGA) and national regulations.
 
-It is also relevant to mention the participation of many Ocean Enterprise members in the governance bodies of Gaia-X Europe, and the interest of that ecosystem in aligning with the specifications and components of Gaia-X for the federation of data spaces.
+**Initial Participants**
 
-Finally, although the project to implement the future Common European Agricultural Data Space (CEADS) will not start until 2025, the results of the preparatory AgriDataSpace project (in which the University of Lleida participated) already outline its future governance model based on a Network Administrative Organization (NAO). During 2025, the evolution of the CEADS implementation project will be monitored to explore options to integrate RegenAg-x into its NAO.
+The initial participants are:
 
+* the **Tech4RegenAg consortium members**, and  
+* the **farmers and cooperatives involved in the Azores (Portugal) pilot projects**.
 
-## RegenAg-x Governance
+These participants have already expressed formal support through letters of intent and operational agreements.
 
-Aligned with the Global Governance inherited from the ecosystems of which RegenAg-x will be a part (Ocean Enterprise, Gaia-X and the future CEADS), governance will also be carried out at the demonstrator level. The roles within RegenAg-x Governance will be:
+New participants will be prioritised based on:
 
-- Ecosystem promoter: the University of Lleida would be responsible, at least initially, for its governance and for defining and executing the onboarding and offboarding processes, as well as its oversight.
-- Technology provider: the Ocean Enterprise provider, presumably deltaDAO AG.
-- Intermediation service providers: deltaDAO AG and Arsys.
-- Data space operator: University of Lleida but also those entities that operate the compute-to-data intermediation service. Initially Arsys, but open to any operator with computing resources who wants to commercialize through the data space.
-- Providers and consumers: those participants who have signed the letter of support as indicated above.
+* complementarity with existing use cases,  
+* potential for new high-value data space use cases,  
+* ability to exploit data sovereignty mechanisms via **Compute-to-Data**,  
+* and contributions with strong monetization or interoperability potential.
 
-It is also important to identify the actors indirectly involved in that governance as they constitute the development communities of the components used by RegenAg-x and the data spaces with which it would interoperate. Specifically, the development communities of Gaia-X, Eclipse, Ocean Enterprise and Ocean Protocol, all open source. And finally, the providers of global interoperability and trust services, mainly the different providers of the GXDCH.
+---
 
-Regarding the organizational model of the demonstrator, it will be organized following the network model. Collaboration among all participants will be based on consensus, reciprocity and the pursuit of collective goals and benefits. But the governance of a data space is not something static, unchanging over time, but should be understood as continuously evolving.
+## 3. Rules for Data and Service Sharing
 
-Within this model, considering how its governance is managed, we will start by following leadership governance, where the promoter will act as the central coordinator. Throughout the demonstrator project phase, it will evolve towards shared governance, where the relevance of each decision will depend on the level of involvement of participants. Reaching the end of the demonstrator phase, and with a view to the future sustainability of the data space, a decision will be made jointly on the future governance through a Network Administrative Organization (NAO), a neutral coordination body.
+All resources published inside the data space must:
 
-As mentioned, RegenAg-x will begin its journey following a leadership governance model, exercised by the demonstrator's promoter at least during the funded demonstrator phase. That model is detailed in the following section.
+* be aligned with the agrifood domain,  
+* comply with the European regulatory framework,  
+* include clear and machine-readable policies,  
+* support traceability through Web3 and distributed ledger technologies.
 
-## Leadership Governance Model
+Usage policies will define:
 
-RegenAg-x's initial governance model, based on leadership by the promoter of the demonstrator, addresses the aspects detailed in the following subsections.
+* who can access a resource,  
+* under which conditions,  
+* with which algorithms,  
+* and with what reuse restrictions.
 
-### Organizational interoperability
+---
 
-#### Participants and roles of the data space
+## 4. Two-Level Governance Structure
 
-- Role of intermediary service provider: compute-to-data or GXDCH. Open to any provider that meets the demonstrator's requirements regarding these components and guarantees of independence, especially within the framework of the DGA.
-- Openness to new participants: open to any economic agent in the agri-food sector. Admission rules based on technological criteria described in interoperability standards. Also based on complementarity with the use cases deployed in the demonstrator, or the potential to deploy new use cases relevant to the Spanish agri-food sector.
+The governance of RegenAg-X operates at two complementary levels:
 
-#### Business models
+### 4.1. Global Governance
 
-- Business autonomy of providers and consumers who, within the options allowed by the implementation of smart contracts, have full business autonomy regarding the conditions of use and their acceptance.
+Global Governance is defined by the **Ocean Enterprise Collective**, which establishes:
 
-#### Interrelation with other data spaces
+* interoperability rules across connected data spaces,  
+* standards for secure computation and Compute-to-Data,  
+* verification and auditability through Web3 credentials and ledgers,  
+* alignment with the **Gaia-X Trust Framework** for federated data sharing.
 
-- Operation of the demonstrator within the decentralized network of the Ocean Enterprise ecosystem. Demonstrator users can interrelate with other data spaces in the ecosystem, including cross-sectoral relationships.
+Global governance is shared by the “federators” — the entities operating or participating in interconnected data spaces.
 
-### Semantic interoperability
+Zertifier also participates in Gaia-X governance forums, ensuring alignment with European specifications and open components for data-space federation.
 
-#### Description of service offerings
+### 4.2. RegenAg-X Governance (demonstrator level)
 
-- Variety of representable resources, since it is possible to describe different resources (data, applications for data exploitation, and computational resources).
-- Flexibility in the description of services, within the Gaia-X Trust Framework and the vocabularies it defines for the description of data and processing services.
-- Definition of resources of the offerings using recognized standards, also in the context of the Gaia-X Trust Framework.
+This level defines how the RegenAg-X demonstrator is operated and managed.
 
-#### Data sovereignty
+**Main Roles**
 
-- Definition of policies for use and access to resources: the data space will initially have the information model of the existing smart contracts within the Ocean Enterprise framework to define policies for access to and use of resources. During the project, options will be explored to integrate them with the access policy languages being established within the Gaia-X framework.
+* **Ecosystem Promoter:**  
+  **Zertifier**, responsible for defining the governance framework, managing onboarding/offboarding, and coordinating operations.  
+* **Data Space Authority:**  
+  **Zertifier**, ensuring compliance, dispute resolution and operational continuity.  
+* **Data Space Operators:**  
+  * Zertifier (Web3, verifiable identities, marketplace, smart-contract governance)  
+  * Compute-to-Data and Data Room providers meeting DGA-aligned requirements  
+    (Open to any infrastructure provider fulfilling the technical and regulatory guarantees.)  
+* **Providers and Consumers:**  
+  Tech4RegenAg consortium members and the Azores pilot farmers, with future expansion based on the demonstrator’s needs.
 
-#### Formats
+**Indirect Governance Actors**
 
-- Open W3C standards formats for Verifiable Credentials (VC) for modeling information about participants and the data and services they share.
+Key open-source communities whose components underpin RegenAg-X:
 
-#### Conformity
+* Gaia-X  
+* Ocean Enterprise Collective  
+* Ocean Protocol  
+* Eclipse Dataspace Components (EDC)
 
-- Use of the Gaia-X Digital Clearing House (GXDC) as a conformity service that will guarantee the validity of the formal composition and the content of the credentials for participants and for the descriptions of the data and services they share.
+These communities provide shared interoperability, security and semantic tooling for federated data spaces.
 
-### Technological interoperability
+---
 
-#### Data space architecture
+## 5. Organizational Model
 
-- Architecture based on the digital federation of data and integrated into the network of data federations provided by the open source specifications and components of the Ocean Enterprise ecosystem and the Gaia-X initiative.
+RegenAg-X adopts a **network-based organizational model**, characterised by:
 
-#### Solution components
+* consensus-driven collaboration,  
+* reciprocity in data and service exchange,  
+* collective benefit as a guiding principle.
 
-- Reuse of proven components from the Ocean Enterprise and Gaia-X ecosystem, ensuring interoperability, data sovereignty and traceability.
+The governance will evolve through three stages:
+
+1. **Leadership Governance (initial phase)**  
+   Zertifier acts as the central authority and coordinator.  
+2. **Shared Governance (maturing phase)**  
+   Participants progressively assume decision-making responsibilities.  
+3. **Neutral Governance Entity (long-term phase)**  
+   Participants may decide to establish a **Network Administrative Organization (NAO)** or equivalent neutral body.
+
+---
+
+## 6. Leadership Governance Model (initial demonstrator phase)
+
+During the funded demonstrator phase, RegenAg-X will operate under a **Leadership Governance Model**, with Zertifier coordinating all governance tasks.
+
+### 6.1. Organisational Interoperability
+
+* Open admission to any agrifood actor meeting technical requirements.  
+* Priority for participants who strengthen existing use cases or enable new ones.
+
+### 6.2. Business Models
+
+* Business autonomy through **smart contract–based agreements**.  
+* Providers and consumers independently set prices, conditions and permissions.
+
+### 6.3. Inter-Data-Space Interoperability
+
+* Native connection to the **Ocean Enterprise Collective federated network**.  
+* Cross-sector and multi-data-space interoperability aligned with Gaia-X specifications.
+
+### 6.4. Semantic Interoperability
+
+* Service and data descriptions using Gaia-X Trust Framework vocabularies.  
+* Use of sector-specific and FAIR-aligned standards.  
+* Ontology-based resource definitions.
+
+### 6.5. Data Sovereignty
+
+* Usage policies based on Ocean Enterprise smart-contract templates.  
+* Progressive integration with Gaia-X policy languages.  
+* Fine-grained control over access and algorithm execution.
+
+### 6.6. Formats
+
+* Use of W3C **Verifiable Credentials (VCs)** for identities, datasets and services.  
+* Interoperable metadata models across all components.
+
+### 6.7. Compliance
+
+* Conformance ensured using services compatible with the **Gaia-X Digital Clearing House (GXDC)** or equivalent verification services.
+
+### 6.8. Technical Interoperability
+
+* Architecture based on digital data federation.  
+* Use of open-source components from the Ocean Enterprise and Gaia-X ecosystems.  
+* Guaranteed data sovereignty, traceability and end-to-end auditability.

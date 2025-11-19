@@ -3,121 +3,152 @@ title: Development of use cases in agri‑food data spaces
 sidebar_label: Use case development
 ---
 
-# Development of use cases in data spaces
+# Developing Use Cases in Agrifood Data Spaces
 
-This guide presents the key steps to design and implement use cases within an agri‑food data space. Inspired by the model from the [Oficina del Dato](https://datos.gob.es), it provides a practical approach to developing solutions based on ethical, secure, and federated data sharing.
+Data spaces make it possible to build collaborative solutions where different actors in the agrifood sector can combine datasets, algorithms and services under a shared framework of trust. This section explains how use cases are designed and deployed within the **RegenAg-X** ecosystem, following a practical, outcome-oriented methodology aligned with European principles of data sovereignty and interoperable federated architectures.
 
-As a real example, we have a data space deployed for soil data analysis of agricultural fields in the Azores Islands (Portugal). This environment enables dataset publishing, trusted algorithm execution, and granular access control. Data never leaves the secure environment thanks to Compute‑to‑Data mechanisms and auditable policies. You can explore field/service cards in the [Cases](/casos) section, which will grow as new fields and analyses are added.
+As a real working reference, RegenAg-X operates a **production dataspace in the Azores Islands (Portugal)**, where local farmers publish soil datasets and allow trusted algorithms to run inside **secure Data Rooms** through **Compute-to-Data**.  
+Data **never leaves the protected environment**, and access is controlled through verifiable and auditable policy mechanisms. The *Use Cases* section includes real examples that will grow as more parcels, datasets and services are incorporated.
 
-Use cases make it possible to address specific challenges in the agri‑food sector, leveraging the value that arises from sharing data among multiple actors. To do this, they rely on common technical infrastructures and collaborative governance models that ensure interoperability, trust, and data sovereignty.
+Use cases are the primary vehicle for addressing concrete challenges in the agrifood sector, unlocking value that emerges when data is shared across multiple stakeholders. They rely on:
 
-Within the framework of the RegenAg‑x project, you can consult various real examples of use cases developed within the agri‑food data space in the [Cases](/casos) section.
+* a common technical infrastructure (Web3 identities, catalogs, connectors, Data Rooms, marketplace),  
+* shared governance rules,  
+* and transparent policies that guarantee data sovereignty and interoperability.
 
-## Phases for developing a use case
+---
 
-The development of a use case within a data space follows a structured 8‑phase model [1]. These phases ensure that the solution is viable, scalable, and sustainable, in addition to aligning with the principles of interoperability, trust, and data sovereignty.
+## Methodology for Developing a Use Case
 
-### 1. Definition of the business problem
+Developing a use case inside a data space follows a structured, phased process. This ensures that the final solution is feasible, scalable and aligned with the technical and organisational principles of European data spaces.
 
-A group of participants identifies a common opportunity to share and exploit data. This opportunity may focus on:
+Below are the **eight phases** used in RegenAg-X, expressed in an original structure but conceptually compatible with best practices from the Spanish Data Office and the EU dataspace community.
 
-- New products or services.
-- Improved operational efficiency.
-- Jointly solving sector challenges.
+---
 
-### 2. Data‑driven modeling
+### 1. Identifying the challenge and opportunity
 
-Relevant information is structured to make informed decisions. This phase includes:
+Participants identify a shared need or improvement area that can be solved by combining or sharing data.  
+Typical motivations include:
 
-- Defining a data model.
-- Incorporating tools such as artificial intelligence or advanced analytics.
-- Focusing development on data‑driven decisions.
+* creating a new product or service,  
+* improving operational efficiency or automation,  
+* addressing sector-wide challenges that require collaboration.
 
-### 3. Consensus and requirements
+---
 
-A collaboration model is built among participants:
+### 2. Understanding and structuring the available data
 
-- Agreement on participation rules.
-- Establishment of common policies.
-- Definition of a governance and trust model.
+This phase examines which datasets exist, who owns them, their quality and how they must be organised to support the use case.  
+Key tasks include:
 
-### 4. Technical design of the use case
+* defining the data model,  
+* identifying relevant sources,  
+* deciding whether to apply AI, predictive analytics or simulation models.
 
-A technical blueprint is drawn up that captures the solutions and agreements reached. This blueprint can be based on:
+---
 
-- Existing models.
-- Reusable templates or components.
-- Common technical recommendations of the data space.
+### 3. Alignment among participants
 
-### 5. Solution construction
+Stakeholders agree on the collaboration framework:
 
-The solution is developed based on the designed blueprint. The use case may reuse or adapt existing technologies to gain efficiency.
+* participation conditions,  
+* access and usage policies,  
+* expected outcomes and value,  
+* governance and trust arrangements.
 
-### 6. Technology development
+The aim is to create a clear, shared foundation before any technical work begins.
 
-The tools required to enable the data lifecycle are selected and integrated:
+---
 
-- Platforms and infrastructures.
-- Interoperability components.
-- Access, governance, traceability tools, etc.
+### 4. Functional and technical design
 
-### 7. Integration and deployment
+A design document is created describing:
 
-- The use case is integrated into the data space (if one already exists).
-- Functional and acceptance tests are carried out.
-- Compliance with agreements and requirements is ensured prior to go‑live.
+* the purpose and workflow of the use case,  
+* which components of the data space are required (Compute-to-Data, Data Rooms, catalogs, marketplace…),  
+* integration needs and interoperability requirements.
 
-### 8. Operation and scaling
+The design may reuse existing patterns or modular components from the Gaia-X and Ocean Enterprise ecosystems.
 
-The use case is in operation and generates real value:
+---
 
-- It can scale to other actors or similar cases.
-- The data space grows in a federated and sustainable way.
-- A continuous improvement model is activated.
+### 5. Solution development
 
-## Evaluation and design of use cases
+Based on the approved design, the solution is built:
 
-Once the key phases in the development of a use case within a data space are understood, it is essential to have methodological tools that help evaluate its feasibility and design it properly. To this end, the Oficina del Dato has published two complementary guides that facilitate this process [2]:
+* development or adaptation of algorithms,  
+* creation of data pipelines,  
+* implementation of automated processing logic,  
+* definition of metrics, dashboards or reporting mechanisms.
 
-- One to assess the feasibility of a use case.
-- Another to design its implementation.
+Where possible, existing components are reused to accelerate the process.
 
-These guides help transform an initial idea into a scalable, sustainable use case aligned with the principles of data spaces.
+---
 
-### Feasibility assessment
+### 6. Integration of technologies and services
 
-This guide allows you to generate, describe, and evaluate ideas for use cases that involve data sharing. It proposes a methodology in five key steps, whose ultimate goal is to make a decision on the feasibility of the proposed scenario:
+All required elements are integrated to enable the full data lifecycle:
 
-1. Use case generation: identify a concrete need that could be solved through data sharing.
-2. Scope definition: delimit the objectives, the actors involved, and the expected benefits.
-3. Potential assessment: analyze the added value that the case can bring in social, economic, or environmental terms.
-4. Study of interaction complexity: assess the level of collaboration required among the different agents.
-5. Final feasibility decision: based on the previous steps, determine whether it makes sense to move forward to its design and implementation.
+* interoperability connectors,  
+* verifiable identities,  
+* semantic catalogs and metadata,  
+* governance and auditing services,  
+* secure compute infrastructure (Compute-to-Data, Data Rooms).
 
-> The guide includes a spreadsheet template with key questions that help complete each stage in a systematic way. Download feasibility assessment template.
+The goal is to ensure end-to-end functionality inside the data space.
 
-### Use case design
+---
 
-If the use case is feasible, the next stage consists of its detailed design, focusing on scalability and future reuse.
+### 7. Deployment and validation
 
-The guide addresses the design through the following actions:
+The use case is embedded in the RegenAg-X dataspace, where the following tests are performed:
 
-- Define the objective and scope precisely.
-- Identify the functionalities needed to share and exploit data.
-- Establish the technological, organizational, and legal enablers.
+* functional and integration tests,  
+* access tests with real policies,  
+* Compute-to-Data validation,  
+* conformance and traceability checks,  
+* final acceptance by the participants.
 
-> A spreadsheet with key questions is also provided to facilitate the design, as well as real examples. Download use case design template.
+Only after these validations is the use case promoted to operational status.
 
-## Conclusion
+---
 
-The two guides published by the Oficina del Dato offer a clear, practical, and applicable methodological framework for developing use cases in data spaces, from the initial idea to go‑live.
+### 8. Operation, scaling and continuous improvement
 
-Combined, they ensure that use cases are not only feasible, but also scalable, sustainable, and implementable in real contexts. This is especially relevant in the agri‑food sector, where collaboration among actors and data sharing are essential to drive a fair, efficient digital transformation aligned with the principles of sovereignty and trust.
+Once operational:
 
-Thus, any entity interested in participating in a data space has a structured path to evaluate, design, and deploy use cases that generate real value.
+* the value generated is measured,  
+* enhancements are implemented,  
+* the use case is extended to new datasets or stakeholders,  
+* new services or algorithms are incorporated.
 
-## References
+This cycle ensures the dataspace grows **federatively**, preserving sovereignty and trust.
 
-[1] Use case development model for data spaces – datos.gob.es. Available at: https://datos.gob.es/es/blog/modelo-de-desarrollo-de-casos-de-uso-para-espacios-de-datos
+---
 
-[2] How to evaluate and design use cases – datos.gob.es. Available at: https://datos.gob.es/es/actualidad/como-evaluar-y-disenar-casos-de-uso-para-compartir-datos
+## Tools for Evaluating and Designing Use Cases
+
+To support this process, two types of methodological tools are typically used:
+
+### 1. Viability assessment
+
+This helps determine whether a use case is worth pursuing. It includes:
+
+* identifying the problem or need,  
+* analysing the expected value (economic, environmental, social),  
+* understanding collaboration requirements,  
+* assessing risks and complexity,  
+* making a go/no-go decision.
+
+### 2. Detailed design
+
+If viable, the next step is designing the use case with focus on scalability and reuse:
+
+* precise definition of scope and objectives,  
+* identification of required functionalities,  
+* technical, organisational and legal enablers,  
+* integration architecture,  
+* access and usage policy models.
+
+Together, these tools help transform an initial idea into a scalable and implementable use case inside the dataspace.

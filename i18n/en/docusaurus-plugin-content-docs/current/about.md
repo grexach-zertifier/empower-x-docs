@@ -4,38 +4,71 @@ title: Discover RegenAg-x
 sidebar_label: About RegenAg-x
 ---
 
-# Discover RegenAg-x
+## RegenAg-X: Harvest the hidden value in your farm data
 
-## The agri-food data space demonstrator for sovereign data sharing and Artificial Intelligence services
+RegenAg-X is a lighthouse data space specialized in regenerative agricultural systems, designed to enable a federated, secure and auditable environment for agrifood data exchange and processing. Its objective is to validate—under real operational conditions—the technical, organisational and economic capabilities required to operate a sector-specific data space aligned with principles of data sovereignty, secure computation and decentralised governance.
 
-This demonstrator is conceived with a significant effort in guidance and use‑case development to support participants who have shown interest but have not had the opportunity or capacity to present their use cases separately for this call.
+The lighhouse incorporates a technical support model to facilitate the participation of farmers, cooperatives, technology companies and research institutions that lack the resources to independently develop complex use cases. This approach allows for precise assessment of integration, standardisation and service orchestration requirements across the agrifood supply chain.
 
-In addition, it involves a wide and diverse network of participants interested in being part of the demonstrator, broadly representing the different types of actors involved in the agri‑food sector, especially the productive side, since we want to maintain close collaboration with the future Common European Agricultural Data Space (CEADS), which focuses on this sector.
+## Governance and operational roles
 
-The data space will be governed by an explicit governance code, ensuring greater transparency, with special attention to preserving the fairness of participants and their non‑discrimination, as well as their sustainability.
+RegenAg-X is governed by an explicit governance framework that defines responsibilities, access rules and technical oversight mechanisms. The model guarantees fairness, non-discrimination and sustainability, and establishes procedures for participant onboarding and policy management.
 
-Participants will play different roles, including data producers and consumers, data consumers and service providers, IT service providers and operators of ecosystem services of the data space. Computing providers will also act as data intermediaries, in particular in the role of trusted third party where information is processed.
+Participants in the space may assume different operational roles:
 
-Intermediation for data processing will be carried out using compute‑to‑data technology, so that data sovereignty can be guaranteed by design. This service will be contracted with a cloud "data rooms" provider, who will provide the high‑performance environment for compute‑to‑data processing, including Artificial Intelligence processes.
+* Data providers  
+* Data consumers  
+* Processing service providers  
+* Infrastructure and ecosystem-service operators  
+* Trusted intermediaries responsible for controlled execution of processes on sensitive data
 
-The data space governance code will enable the enactment of access and resource‑usage policies. It will also define mechanisms to create incentives for sharing data and services, as well as for the sustainability of the data space itself. These mechanisms will be based on an electronic Euro that uses distributed ledger technologies, with no real economic value during the demonstration phase, but which will allow all participants to explore possible data economies for the future sustainability of the data space.
+Role assignment is managed through verifiable identities based on Web3 technologies.
 
-The distributed ledger infrastructure used for the monetization of the data space will also allow tracking of the data space transactions and their audit. Based on this ledger, dispute‑resolution mechanisms stipulated in the governance code will also be deployed.
+## Technical architecture and secure computation
 
-The demonstrator will be based on the FAIR principles to facilitate the discovery and access to the resources shared through it, and to make them interoperable and reusable. To this end, all resources will have descriptions of their characteristics and conditions of use, using semantic technologies that facilitate their automatic processing.
+The lighthouse integrates advanced compute-to-data capabilities through the Ocean Enterprise Collective, enabling algorithms to be executed directly on source datasets without transferring or replicating them. This preserves confidentiality and ensures data sovereignty by design.
 
-The data space will host both proprietary resources (data and services for processing) shared under conditions of use, and open data sources, especially high‑value datasets that are highly relevant to the agri‑food sector [(Chamorro‑Padial, García, Gil, 2024)](https://doi.org/10.1016/j.compag.2024.108775). Especially open data sources relevant to the agri‑food sector such as those generated by the Galileo and Copernicus programs.
+![RegenAg-X Model](/img/about.png)
 
-The services shared through the data space will include algorithms that implement mechanisms to validate the quality level of the data contributed by participants. These algorithms, for example Exploratory Data Analysis (EDA), can be applied to the data to compute quality metrics while ensuring their sovereignty. This will be due to the very design of the data space, which implements compute‑to‑data mechanisms that can ensure that the owner does not lose control over the data.
+The architecture includes:
 
-To facilitate interoperability and reuse of data and services, the data space will integrate services for transforming data into representations based on semantic technologies that will refer to formalisms such as ontologies of common vocabularies in the agri‑food domain.
+* Web3 protocols and Verifiable Credentials (VCs) for authentication, authorization and auditing  
+* Secure computation services for advanced analytics, AI and federated learning  
+* Standardised containers (Docker/Kubernetes) to encapsulate data-processing services  
+* Traceability and accounting mechanisms based on a distributed ledger supporting verifiable transactions and smart contracts
 
-The proposed demonstrator will be deployed using components from the Ocean Enterprise data space ecosystem. These components are open source and any new development or improvement carried out during the project will be shared in the same way as in the Ocean Enterprise open source code repositories.
+These capabilities enable granular usage policies, real-time compliance validation, and monetization models based on access, query execution or compute cycles.
 
-Services will be contracted from a company that provides Ocean Enterprise components to facilitate the integration of the demonstrator with other data spaces that are already underway in this ecosystem. In addition, this company will provide the components in a dedicated manner for the test version of the data space, which will operate independently. These components, both in their shared and dedicated versions, provide the following technologies:
+## Interoperability and semantics
 
-1. Compute‑to‑data technologies to guarantee privacy and data sovereignty by design, so that it can be guaranteed that data is processed in a protected and confidential manner. They also enable federated learning.
-2. Mechanisms to share data, but also data processing services, preferably encapsulated as containers (Docker and Kubernetes) with all their code and dependencies to facilitate their portability and execution in the compute‑to‑data environment. These services include advanced descriptive, predictive and prescriptive analytics tools.
-3. Distributed ledger technologies that allow tracing all transactions carried out in the ecosystem of data spaces, and therefore across multiple connected data spaces.
-4. Smart contract technologies that allow implementing monetization mechanisms for data, services and the computational costs of the compute‑to‑data mechanism. Distributed ledger and smart contracts based on the EVM (Ethereum Virtual Machine) standard. They facilitate independence from the underlying technological solution, enabling portability and deployment across different infrastructures.
-5. Digital Wallet technologies to ensure the sovereignty of participants and the self‑management of attributes related to their identity.
+RegenAg-X incorporates semantic transformation services to ensure interoperability across heterogeneous data sources.
+
+The semantic model includes:
+
+* Normalisation of formats (JSON, CSV, XML)  
+* Ontology mappings and domain vocabularies for agricultural and regenerative use cases  
+* Automatic validation of structures and usage conditions  
+* Publication in federated catalogues for discovery and reuse
+
+This approach allows data from IoT sensors, agricultural machinery, telemetry, farm-management systems or open datasets to be integrated and processed in a uniform manner.
+
+## Data economy and incentive mechanisms
+
+The lighthouse implements data-economy capabilities enabled by the Ocean Enterprise Collective:
+
+* Publication of datasets and computational services as tokenised assets  
+* Execution under smart contracts governing permissions and compensation  
+* Automatic settlement of transactions via verifiable accounting  
+* Incentive models to promote participation and contribution of high-value data
+
+The distributed ledger infrastructure maintains an auditable history of all operations executed within the data space.
+
+## Resource availability
+
+RegenAg-X hosts:
+
+* Proprietary resources shared under defined usage conditions  
+* Advanced computational services (descriptive, predictive and prescriptive analytics)  
+* High-value open datasets relevant to regenerative agriculture (earth observation, climate, soil, biodiversity, etc.)
+
+All resources comply with FAIR principles and include technical, semantic and governance metadata to ensure discoverability, interoperability and reuse.

@@ -30,44 +30,15 @@ const sidebars = {
       id: 'governance',
     },
     {
-      type: 'category',
-      label: 'Buenas prácticas',
-      items: [
-        {
-          type: 'doc',
-          id: 'use-cases',
-        },
-        {
-          type: 'doc',
-          id: 'interoperability',
-        },
-      ],
-      collapsed: false,
-    },
-    {
       type: 'doc',
-      id: 'verifiable-credentials',
+      id: 'use-cases',
     },
-    {
-      type: 'doc',
-      id: 'ocean-protocol-market',
-    },
-    {
-      type: 'doc',
-      id: 'gaiax-standards',
-    },
-    {
-      type: 'doc',
-      id: 'ontologies',
-    },
-    {
-      type: 'doc',
-      id: 'compute-to-data',
-    },
-    {
-      type: 'doc',
-      id: 'market-policy',
-    }
+    { type: 'doc', id: 'compute-to-data' },
+    { type: 'doc', id: 'gaiax-standards' },
+    { type: 'doc', id: 'market-policy' },
+    { type: 'doc', id: 'ocean-protocol-market' },
+    { type: 'doc', id: 'ontologies' },
+    { type: 'doc', id: 'verifiable-credentials' },
   ],
 };
 

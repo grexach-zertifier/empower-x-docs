@@ -3,94 +3,173 @@ title: Modelo de gobernanza
 sidebar_label: Modelo de gobernanza
 ---
 
-# Modelo de gobernanza
+# Modelo de Gobernanza de RegenAg-X
 
-RegenAg-x se basará en un sistema de Gobernanza Organizacional que implicará la coordinación, la toma de decisiones y el establecimiento de objetivos dentro del espacio de datos y que promoverá la colaboración entre las múltiples partes interesadas. Se establecerá una Autoridad del espacio de datos, que actuará como entidad responsable de hacer operativa y mantener dicha gobernanza, incluyendo la gestión de disputas entre participantes.
+## 1. Principios generales
 
-Esta autoridad, como mínimo durante el periodo de funcionamiento como demostrador, será la Universitat de Lleida como operadora del espacio de datos. Más adelante, se irá evolucionando hacia una gobernanza compartida con los participantes y se explorará opciones para establecer una Autoridad del espacio de datos alternativa, compatible con hacer también sostenible el rol de operador, por ejemplo, como una nueva entidad independiente.
+RegenAg-X se basa en un modelo de **Gobernanza Organizacional** diseñado para coordinar, tomar decisiones y definir objetivos dentro del espacio de datos, garantizando la participación equitativa de todos los actores y la sostenibilidad técnica y operativa del ecosistema.
 
-Por otra parte, está la Gobernanza de la Compartición de Datos, que regula el acceso a los datos y servicios de procesamiento entre los participantes. El operador de datos, como autoridad de gobernanza, establecerá las reglas iniciales con los requisitos para la incorporación de participantes en el demostrador y los productos y servicios disponibles en el mismo.
+Se establecerá una **Autoridad del Espacio de Datos**, responsable de operar y mantener el marco de gobernanza, gestionar disputas y supervisar el cumplimiento de las reglas.  
+**Zertifier** actuará como **Autoridad del Espacio de Datos** durante toda la fase del demostrador.
 
-Inicialmente, los participantes serán los listados al principio de esta sección y que ya han mostrado interés en el proyecto firmando las cartas de apoyo adjuntas a esta solicitud. Las cartas se basan en un modelo que define los requerimientos y beneficios de ser un participante en el demostrador. A partir de este conjunto de participantes inicial, se irán incorporando nuevos participantes, priorizando aquellos que complementen los casos de uso existentes o que permitan definir nuevos casos de uso de espacios de datos.
+A medida que el ecosistema madure, se avanzará hacia un modelo de **gobernanza compartida**, con participación directa de agricultores, agentes tecnológicos, cooperativas y entidades de investigación. En fases posteriores se evaluarán modelos organizativos que permitan una entidad operadora sostenible e independiente.
 
-Para nuevos casos de uso, se priorizarán aquellos que aprovechen las capacidades del demostrador, especialmente los que tengan requerimientos de confianza que se puedan solventar con la funcionalidad de soberanía por diseño mediante computación a datos. También aquellos que muestren mayor potencial gracias a las capacidades de monetización que también proporciona el demostrador.
+---
 
-Por otra parte, respecto a los datos y servicios de procesamiento, la gobernanza definirá las reglas a seguir a la hora de compartir datos. Además de que estén relacionadas con el sector agroalimentario, será indispensable que se cumpla con el marco regulatorio establecido a nivel nacional y europeo.
+## 2. Gobernanza de la Compartición de Datos
 
-Para maximizar la interoperabilidad tanto dentro del espacio de datos del demostrador como con aquellos con los que interoperará (los del ecosistema Ocean Enterprise y otros que utilicen las herramientas de federación de espacios de datos de Gaia-X), la estructura de gobernanza se organizará en 2 niveles: una Gobernanza Global que armonizará la interoperabilidad entre espacios de datos distintos y un órgano de gobernanza específico para el demostrador, la Gobernanza RegenAg-x.
+La gobernanza de la compartición regula el acceso a datos, servicios y capacidades de computación en el espacio de datos.
 
-## Gobernanza Global
+Zertifier, como Autoridad de Gobernanza del Espacio de Datos:
 
-La Gobernanza Global será principalmente la del ecosistema Ocean Enterprise como entidad responsable de definir las normas de interoperabilidad entre los espacios de datos de este ecosistema. La gobernanza se ejerce de manera compartida por el conjunto de participantes en el rol de "federadores".
+* definirá las normas iniciales de admisión,  
+* establecerá las condiciones de publicación de datos y servicios,  
+* supervisará el cumplimiento de políticas de acceso y uso,  
+* y garantizará que todas las interacciones cumplan con el marco regulatorio europeo (GDPR, DGA) y nacional.
 
-También es relevante mencionar la participación de muchos de los integrantes de Ocean Enterprise en los órganos de gobernanza de Gaia-X Europa, y el interés de ese ecosistema en alinearse con las especificaciones y componentes de Gaia-X para la federación de espacios de datos.
+**Participantes iniciales**
 
-Finalmente, aunque el proyecto para la implementación del futuro Espacio Común Europeo de Datos Agrarios (CEADS) no empezará hasta 2025, los resultados del proyecto preparatorio AgriDataSpace (en el que ha participado la Universitat de Lleida) ya plantean su futuro modelo de gobernanza basado en una Organización Administrativa de Red (NAO). Se seguirá durante el 2025 la evolución del proyecto de implementación del CEADS de cara a explorar las opciones para integrar RegenAg-x en su NAO.
+Los participantes iniciales serán:
 
+* **Miembros del consorcio Tech4RegenAg**,  
+* **Agricultores y cooperativas implicados en los pilotos de las Islas Azores (Portugal)**.
 
-## Gobernanza RegenAg-x
+Estos participantes ya han manifestado formalmente su interés mediante cartas de apoyo y acuerdos operativos.
 
-Alineada con la Gobernanza Global heredada de los ecosistemas de los que será parte RegenAg-x (Ocean Enterprise, Gaia-X y el futuro CEADS), también se llevará una gobernanza a nivel del demostrador. Los roles dentro de la Gobernanza de RegenAg-x serán:
+La incorporación de nuevos participantes priorizará:
 
-- Promotor del ecosistema: la Universitat de Lleida se encargaría como mínimo inicialmente de su gobernanza y de definir y ejecutar los procesos de alta y baja en el sistema, así como su supervisión.
-- Proveedor de tecnología: el proveedor Ocean Enterprise, presumiblemente deltaDAO AG.
-- Proveedores de servicios de intermediación: deltaDAO AG y Arsys.
-- Operador del espacio de datos: Universitat de Lleida pero también aquellas entidades que operen el servicio de intermediación de computación a datos. Inicialmente Arsys, pero abierto a cualquier operador con recursos de computación que quiera comercializar a través del espacio de datos.
-- Proveedores y consumidores: aquellos participantes que han firmado la carta de apoyo tal y como se ha indicado anteriormente.
+* contribuciones relevantes para los casos de uso existentes,  
+* nuevas propuestas que exploten la soberanía del dato mediante **Compute-to-Data**,  
+* y actores que aporten datos o servicios con potencial de monetización verificable.
 
-También es importante identificar a los actores implicados indirectamente en esa gobernanza por constituir las comunidades de desarrollo de los componentes utilizados por RegenAg-x y los espacios de datos con los que interoperaría. Concretamente, las comunidades de desarrollo de Gaia-X, Eclipse, Ocean Enterprise y Ocean Protocol, todas ellas basadas en código abierto. Y finalmente los proveedores de servicios globales de interoperabilidad y confianza, principalmente los diferentes proveedores de la GXDCH.
+---
 
-Respecto al modelo organizativo del demostrador, estará organizado siguiendo el modelo en red. La colaboración entre todos los participantes estará basada en el consenso, la reciprocidad y la búsqueda de metas y beneficios colectivos. Pero la gobernanza de un espacio de datos no es algo estático, inamovible en el tiempo, sino que debe entenderse como en continua evolución.
+## 3. Reglas de compartición y uso de datos
 
-Dentro de este modelo, atendiendo a cómo se gestiona su gobernanza, se empezará siguiendo una gobernanza de liderazgo, donde el promotor actuará como el coordinador central. A lo largo de la fase del proyecto como demostrador, se irá evolucionando hacia una gobernanza compartida, donde la relevancia de cada decisión dependerá del nivel de involucración de los participantes. Llegando al final de la fase como demostrador, y de cara a la sostenibilidad futura del espacio de datos, de manera compartida se decidirá sobre la futura gobernanza a través de una Organización Administrativa de Red (NAO), un organismo de coordinación neutral.
+Las condiciones de uso deberán:
 
-Como se ha mencionado, RegenAg-x comenzará su andadura siguiendo un modelo de gobernanza de liderazgo, ejercido por el promotor del demostrador como mínimo durante la fase como demostrador con financiación. Ese modelo se detalla en la siguiente sección.
+* estar alineadas con el sector agroalimentario,  
+* respetar el marco regulatorio europeo aplicable,  
+* utilizar modelos de políticas expresivos y auditables,  
+* permitir trazabilidad completa mediante tecnologías Web3.
 
-## Modelo de Gobernanza de Liderazgo
+Se establecerán políticas claras sobre:
 
-El modelo de gobernanza inicial de RegenAg-x, basado en el liderazgo por parte del promotor del demostrador, aborda los aspectos detallados en las siguientes subsecciones.
+* quién puede acceder,  
+* bajo qué condiciones,  
+* con qué algoritmos,  
+* y con qué restricciones de reutilización.
 
-### Interoperabilidad organizativa
+---
 
-#### Participantes y roles del espacio de datos
+## 4. Estructura de gobernanza en dos niveles
 
-- Rol de proveedor de servicios de intermediación: de computación a datos o de GXDCH. Abierto a cualquier proveedor que cumpla con los requerimientos del demostrador respecto a estos componentes y garantías de independencia, especialmente en el marco del DGA.
-- Apertura a nuevos participantes: abierto a cualquier agente económico del sector agroalimentario. Reglas de admisión basadas en criterios tecnológicos descritos en normas de interoperabilidad. También de complementariedad respecto a los casos de uso desplegados en el demostrador, o el potencial de despliegue de nuevos casos de uso relevantes para el sector agroalimentario español.
+La gobernanza se organizará en dos niveles:
 
-#### Modelos de negocio
+### 4.1. Gobernanza Global
 
-- Autonomía de negocio de proveedores y consumidores que, dentro de las opciones que permiten la implementación de contratos inteligentes, tienen una autonomía de negocio completa respecto a las condiciones de uso y su aceptación.
+Basada en las reglas del **ecosistema Ocean Enterprise**, responsable de:
 
-#### Interrelación con otros espacios de datos
+* definir normas de interoperabilidad entre espacios de datos del ecosistema,  
+* gestionar estándares de ejecución Compute-to-Data,  
+* garantizar trazabilidad y verificabilidad mediante Web3,  
+* fomentar la interoperabilidad con espacios de datos que implementan el **Gaia-X Trust Framework**.
 
-- Funcionamiento del demostrador dentro de la red descentralizada del ecosistema Ocean Enterprise. Los usuarios del demostrador pueden interrelacionarse con otros espacios de datos del ecosistema, incluyendo relaciones intersectoriales.
+La Gobernanza Global es compartida por los “federadores”, es decir, los operadores y participantes de los diferentes espacios de datos integrados en Ocean Enterprise.
 
-### Interoperabilidad semántica
+Zertifier participa en foros de gobernanza de Gaia-X, garantizando alineación con sus especificaciones y componentes para la federación de espacios de datos.
 
-#### Descripción de ofertas de servicios
+### 4.2. Gobernanza RegenAg-X (nivel demostrador)
 
-- Variedad de recursos representables, ya que se permite describir diferentes recursos (datos, aplicaciones para la explotación de datos y recursos computacionales).
-- Flexibilidad en la descripción de servicios, dentro del marco Gaia-X Trust Framework y los vocabularios que define para la descripción de datos y servicios de procesamiento.
-- Definición de recursos de las ofertas mediante estándares reconocidos, también en el contexto del Gaia-X Trust Framework.
+Este nivel establece las reglas específicas para la operación del demostrador RegenAg-X.
 
-#### Soberanía del dato
+**Roles principales**
 
-- Definición de políticas de uso y de acceso a los recursos: el espacio de datos contará inicialmente con el modelo de información de los contratos inteligentes existentes en el marco de Ocean Enterprise para definir políticas de acceso y uso de los recursos. Durante el proyecto, se explorarán opciones para integrarlos con los lenguajes para políticas de acceso que se vayan estableciendo en el marco de Gaia-X.
+* **Promotor del ecosistema:**  
+  **Zertifier**, responsable del diseño del modelo de gobernanza, su ejecución inicial y los procesos de alta/baja de participantes.  
+* **Autoridad del Espacio de Datos:**  
+  **Zertifier**, como garante del cumplimiento normativo, de la coherencia operativa y de la gestión de disputas.  
+* **Operadores del Espacio de Datos:**  
+  * Zertifier (Web3, identidades verificables, marketplace).  
+  * Proveedores de infraestructura HPC/Cloud que ofrezcan **Compute-to-Data** o **Data Rooms** a través del espacio de datos.  
+    (Operadores abiertos a cualquier proveedor que cumpla las garantías técnicas y regulatorias del DGA.)  
+* **Proveedores y consumidores de datos y servicios:**  
+  Miembros del consorcio Tech4RegenAg y los agricultores del piloto de Azores, ampliables conforme avance el demostrador.
 
-#### Formatos
+**Actores indirectos clave**
 
-- Formatos estándares abiertos del W3C de Credenciales Verificables (Verifiable Credentials, VC) para el modelado de la información sobre los participantes y los datos y servicios que comparten.
+Fundamentalmente las comunidades abiertas responsables de los componentes utilizados por RegenAg-X:
 
-#### Conformidad
+* Gaia-X  
+* Ocean Enterprise Collective  
+* Ocean Protocol  
+* Eclipse Dataspace Components (EDC)
 
-- Uso de la Gaia-X Digital Clearing House (GXDC) como servicio de conformidad que garantizará la validez de la composición formal y el contenido de las credenciales para participantes y para las descripciones de los datos y servicios que comparten.
+Estas comunidades aportan herramientas, estándares y componentes open source utilizados para la federación, la semántica, la computación segura y la auditoría.
 
-### Interoperabilidad tecnológica
+---
 
-#### Arquitectura del espacio de datos
+## 5. Modelo organizativo
 
-- Arquitectura basada en la federación digital de datos e integrada en la red de federaciones de datos proporcionada por las especificaciones y componentes con licencia de fuentes abiertas del ecosistema Ocean Enterprise y la iniciativa Gaia-X.
+El demostrador adopta un **modelo organizativo en red**, basado en:
 
-#### Componentes de la solución
+* consenso entre participantes,  
+* reciprocidad en el intercambio de datos y servicios,  
+* objetivos colectivos de beneficio mutuo.
 
-- Reutilización de componentes probados del ecosistema Ocean Enterprise y Gaia-X, garantizando interoperabilidad, soberanía del dato y trazabilidad.
+La gobernanza evolucionará en tres fases:
+
+1. **Fase de liderazgo** (modelo inicial)  
+   Zertifier actúa como autoridad central de coordinación y decisión.  
+2. **Fase de gobernanza compartida**  
+   Participantes adquieren un rol creciente en decisiones operativas, técnicas y estratégicas.  
+3. **Fase de madurez**  
+   Se evaluará un modelo de **Organización Administrativa de Red (NAO)** o entidad neutral que asegure la sostenibilidad futura del espacio, si los participantes lo consideran adecuado.
+
+---
+
+## 6. Modelo de Gobernanza de Liderazgo (fase inicial)
+
+En la fase como demostrador financiado, RegenAg-X seguirá un **modelo de gobernanza basado en liderazgo**, donde Zertifier coordina:
+
+### 6.1. Interoperabilidad organizativa
+
+* Admisión abierta a cualquier actor del sector agroalimentario que cumpla los requisitos técnicos.  
+* Prioridad para agentes que complementen los casos de uso existentes o permitan desplegar nuevos.
+
+### 6.2. Modelos de negocio
+
+* Libertad contractual bajo el marco de **smart contracts**.  
+* Autonomía total de proveedores y consumidores para fijar precios, permisos y condiciones de uso.
+
+### 6.3. Interrelación con otros espacios de datos
+
+* Conexión nativa con la red de federaciones del **Ocean Enterprise Collective**.  
+* Interoperabilidad intersectorial y multidatos mediante especificaciones Gaia-X.
+
+### 6.4. Interoperabilidad semántica
+
+* Descripciones basadas en los vocabularios del Gaia-X Trust Framework.  
+* Definición de recursos usando estándares sectoriales y FAIR.  
+* Representación de datos y servicios mediante ontologías reconocidas.
+
+### 6.5. Soberanía del dato
+
+* Políticas de uso basadas en modelos de smart contracts del ecosistema Ocean Enterprise.  
+* Integración progresiva con lenguajes de políticas del marco Gaia-X.  
+* Control granular de acceso y ejecución.
+
+### 6.6. Formatos
+
+* Uso de estándares abiertos del W3C para **Credenciales Verificables (VC)**.  
+* Modelos interoperables de descripción de servicios y datos.
+
+### 6.7. Conformidad
+
+* Uso de servicios de conformidad compatibles con el **Gaia-X Digital Clearing House (GXDC)** o equivalentes.
+
+### 6.8. Interoperabilidad tecnológica
+
+* Arquitectura basada en federación digital de datos.  
+* Uso de componentes open source del ecosistema Ocean Enterprise y Gaia-X.  
+* Garantía de soberanía del dato, trazabilidad y auditabilidad extremo a extremo.
