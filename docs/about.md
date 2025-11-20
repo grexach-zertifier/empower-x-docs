@@ -69,5 +69,3 @@ RegenAg-X aloja tanto:
 * **Recursos propietarios** compartidos bajo condiciones de uso definidas  
 * **Servicios computacionales avanzados** (analítica descriptiva, predictiva, prescriptiva)  
 * **Fuentes abiertas de alto valor** relevantes para agricultura regenerativa (observación terrestre, clima, suelos, biodiversidad, etc.)
-
-Todos los recursos cumplen principios FAIR, incorporando metadatos técnicos, semánticos y de gobernanza que permiten su descubrimiento, interoperabilidad y reutilización.

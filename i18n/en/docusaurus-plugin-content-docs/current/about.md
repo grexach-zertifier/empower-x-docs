@@ -70,5 +70,3 @@ RegenAg-X hosts:
 * Proprietary resources shared under defined usage conditions  
 * Advanced computational services (descriptive, predictive and prescriptive analytics)  
 * High-value open datasets relevant to regenerative agriculture (earth observation, climate, soil, biodiversity, etc.)
-
-All resources comply with FAIR principles and include technical, semantic and governance metadata to ensure discoverability, interoperability and reuse.
