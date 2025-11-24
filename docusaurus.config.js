@@ -46,7 +46,7 @@ const config = {
   url: 'https://zertifier.github.io',
   // For GitHub Pages project sites, baseUrl must be '/<projectName>/'
   baseUrl: '/',
-  trailingSlash: false,
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
