@@ -41,14 +41,16 @@ const config = {
 
   // Set the production url of your site here
   // GitHub Pages project site: https://<org>.github.io/<projectName>/
-  url: 'https://grexach-zertifier.github.io',
+  // Set the production url of your site here
+  // GitHub Pages project site: https://<org>.github.io/<projectName>/
+  url: 'https://zertifier.github.io',
   // For GitHub Pages project sites, baseUrl must be '/<projectName>/'
-  baseUrl: '/',
-  trailingSlash: true,
+  baseUrl: '/empower-x-docs/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'grexach-zertifier', // Your GitHub org/user name.
+  organizationName: 'zertifier', // Your GitHub org/user name.
   projectName: 'empower-x-docs', // Your repo name.
   deploymentBranch: 'gh-pages',
 
