@@ -45,7 +45,7 @@ const config = {
   // GitHub Pages project site: https://<org>.github.io/<projectName>/
   url: 'https://zertifier.github.io',
   // For GitHub Pages project sites, baseUrl must be '/<projectName>/'
-  baseUrl: '/empower-x-docs/',
+  baseUrl: '/',
   trailingSlash: false,
 
   // GitHub pages deployment config.
