@@ -1,156 +1,169 @@
 ---
-title: Desarrollo de casos de uso en espacios de datos agroalimentarios
-sidebar_label: Desarrollo de casos de uso
+title: "Desarrollo de casos de uso en espacios de datos energéticos"
+sidebar_label: "Casos de Uso"
 ---
 
-# Desarrollo de casos de uso en espacios de datos agroalimentarios
+# Desarrollo de casos de uso en espacios de datos energéticos
 
-Los espacios de datos permiten construir soluciones colaborativas donde distintos actores del sector agroalimentario pueden combinar datos, algoritmos y servicios bajo un marco común de confianza. Este apartado describe cómo se diseñan y despliegan casos de uso dentro del ecosistema **RegenAg-X**, siguiendo un enfoque práctico y orientado a resultados, basado en modelos europeos de interoperabilidad y soberanía del dato.
+Los espacios de datos permiten construir soluciones colaborativas donde diferentes actores del ecosistema energético, urbano y de movilidad pueden combinar datos, algoritmos y servicios bajo un marco común de confianza. Este apartado describe cómo se diseñan y despliegan casos de uso dentro del ecosistema Empower-X, siguiendo una metodología práctica y orientada a resultados, coherente con los principios europeos de interoperabilidad, soberanía del dato y federación entre territorios.
 
-Como referencia operativa, RegenAg-X cuenta con un **dataspace en producción en las Islas Azores (Portugal)**, donde productores locales publican datos de suelo y permiten la ejecución de algoritmos en **Data Rooms seguras** mediante **Compute-to-Data**.  
-Los datos **no abandonan nunca el entorno protegido**, y el acceso se controla mediante políticas verificables y trazables. En la sección de *Casos* pueden consultarse ejemplos reales que se ampliarán a medida que se incorporen nuevas parcelas y análisis.
+Empower-X opera como demostrador del Data Space for Positive Energy Districts (DS4PED), vinculado al proyecto europeo DS4SSCC-DEP. En el piloto de Rubí, los sistemas municipales, las plantas solares públicas, los puntos de recarga, las comunidades energéticas, la movilidad eléctrica y la plataforma ZertiPower intercambian datos mediante un data space federado que garantiza trazabilidad, soberanía y computación segura. 
 
-Los casos de uso son el mecanismo principal para resolver retos del sector agroalimentario mediante el intercambio federado de datos. Para ello se apoyan en:
+Los casos de uso son el mecanismo principal para resolver desafíos energéticos y urbanos mediante el intercambio federado de datos. Para ello se apoyan en:
 
-* una infraestructura técnica común (identidades Web3, catálogos, conectores, Data Rooms, marketplace),  
-* un modelo de gobernanza compartido,  
-* y reglas transparentes que garantizan la soberanía del dato y la interoperabilidad entre participantes.
+* **una infraestructura técnica común**: identidades Web3, catálogos semánticos, conectores EDC/IDS, Data Rooms seguras, ejecución Compute-to-Data, marketplace de datos y servicios;  
+* **un modelo de gobernanza compartido**, alineado con Gaia-X, CEEDS y Ocean Enterprise;  
+* **políticas de uso verificables y trazables** que garantizan soberanía del dato, privacidad, interoperabilidad y cumplimiento regulatorio (GDPR, Data Act, DGA, normativa energética).
 
----
+## Metodología para desarrollar un caso de uso en Empower-X
 
-## Metodología para desarrollar un caso de uso
+El desarrollo de un caso de uso dentro de un espacio de datos energético sigue un ciclo estructurado en fases. Este ciclo garantiza que la solución sea factible, segura, interoperable y escalable dentro de un ecosistema federado multi-actor y multi-territorial.
 
-El desarrollo de un caso de uso dentro de un espacio de datos sigue un ciclo estructurado en fases. Este ciclo permite garantizar que la solución es factible, escalable y compatible con los principios de los dataspaces europeos.
+A continuación se describen las ocho fases del proceso en Empower-X, adaptadas al dominio energético, urbano y de movilidad.
 
-A continuación se describen las **ocho fases** del proceso de desarrollo en RegenAg-X, expresadas de forma independiente respecto a modelos externos pero conceptualmente alineadas con las buenas prácticas de la Oficina del Dato.
+### 1\. Identificación del reto y de la oportunidad
 
----
+Los participantes detectan una necesidad compartida relacionada con:
 
-### 1. Identificación del reto y de la oportunidad
+* integración de renovables distribuidas,  
+* trazabilidad energética en tiempo real,  
+* gestión de flexibilidad,  
+* movilidad eléctrica y planificación de infraestructuras,  
+* eficiencia urbana y reducción de emisiones,  
+* optimización de redes de recarga,  
+* coordinación entre actores (municipios, DSOs, comunidades energéticas, operadores de movilidad).
 
-Los participantes detectan una necesidad común o un área de mejora que podría resolverse compartiendo datos.  
-Las motivaciones suelen agruparse en tres bloques:
+Ejemplos procedentes del piloto de Rubí:  
+– garantizar recarga 100% renovable mediante ZEAC y trazabilidad en tiempo real;   
+– tokenizar excedentes fotovoltaicos municipales para equilibrar consumo nocturno. 
 
-* creación de un nuevo servicio o producto,  
-* optimización operativa o automatización,  
-* colaboración para solucionar problemas complejos del sector.
+### 2\. Comprensión y estructuración de los datos disponibles
 
----
+Se analizan:
 
-### 2. Comprensión y estructuración de los datos disponibles
+* qué datos existen y quién los controla (municipios, CPOs, DSOs, PV plants, EV fleets, sensores urbanos, edificios públicos);  
+* qué calidad y granularidad tienen (submetering, intervalos de 15 min, datos históricos, datos en streaming);  
+* qué modelos semánticos se aplican (SAREF, Smart Data Models, NGSI-LD, CEEDS Blueprint);  
+* qué datos necesitan tratamiento sensible o ejecución Compute-to-Data (p. ej. consumos eléctricos individuales, movilidad de usuarios, perfiles horarios).
 
-Se analiza qué datos existen, quién los tiene, qué nivel de calidad presentan y cómo deben organizarse para apoyar el caso de uso.  
-Aquí se definen:
+Se define el modelo de datos y si se requieren:
 
-* la estructura del modelo de datos,  
-* qué fuentes se combinarán,  
-* si se emplearán técnicas avanzadas como IA, predicción o simulación.
+* predicción energética o de movilidad,  
+* simulación urbana,  
+* agregación de flexibilidad,  
+* algoritmos de optimización o planificación urbana.
 
----
+### 3\. Alineamiento entre participantes
 
-### 3. Alineamiento entre participantes
+Los actores del caso de uso establecen un marco compartido:
 
-Los actores implicados acuerdan las reglas básicas del caso:
+* condiciones de participación;  
+* políticas de acceso, permisos y expiración;  
+* valor esperado para cada actor (DSO, municipio, comunidad energética, operador de movilidad, ciudadano);  
+* responsabilidades y mecanismos de control;  
+* reglas de gobernanza específicas dentro del espacio de datos.
 
-* condiciones de participación,  
-* políticas de acceso y permisos,  
-* expectativas de valor,  
-* y estructura de gobernanza.
+En Empower-X, estas reglas se expresan como **contratos digitales auditables** y se ejecutan mediante identidades verificables, siguiendo el modelo de gobernanza de Empower-X.
 
-El objetivo es construir un marco común que facilite la confianza desde el principio.
+### 4\. Diseño funcional y técnico
 
----
+Se elabora un documento que define:
 
-### 4. Diseño funcional y técnico del caso
+* la lógica funcional del caso de uso,  
+* los datos de entrada y salida,  
+* los flujos de intercambio,  
+* qué componentes del espacio de datos se utilizarán:  
+  * Compute-to-Data,  
+  * Data Rooms seguras,  
+  * conectores EDC/IDS,  
+  * marketplace,  
+  * catálogos digitales federados,  
+  * verifiable credentials,  
+  * trazabilidad DLT (ZEAC, EKW).
 
-Se elabora un documento que describe:
+Este diseño se basa en:
 
-* qué se va a hacer,  
-* cómo se va a hacer,  
-* qué componentes del espacio de datos se utilizarán (Compute-to-Data, Data Rooms, marketplace, catálogos, etc.),  
-* y qué integraciones serán necesarias.
+* patrones del **CEEDS Blueprint** para casos de energía, flexibilidad, electromovilidad y comunidades energéticas;   
+* requisitos del piloto DS4PED (Rubí). 
 
-Este diseño puede basarse en patrones existentes o en componentes modulares del ecosistema Gaia-X y Ocean Enterprise.
-
----
-
-### 5. Desarrollo de la solución
+### 5\. Desarrollo de la solución
 
 A partir del diseño, se construye la solución:
 
-* desarrollo o adaptación de algoritmos,  
-* creación de pipelines de datos,  
-* implementación de servicios automatizados,  
-* definición de métricas y paneles de control.
+* adaptación o desarrollo de algoritmos de predicción energética, flexibilidad, movilidad o correlación climática;  
+* creación de pipelines de datos en tiempo real (IoT, submetering, CPOs, PV, mobility API);  
+* integración con sistemas municipales, plataformas de recarga o SCADA;  
+* definición de métricas (ahorro energético, % renovable, KPIs de movilidad, impacto en red).
 
-Cuando es posible, se reutilizan componentes existentes para acelerar el desarrollo.
+Ejemplos:
 
----
+* algoritmo para generar ZEAC en función de la producción solar municipal;   
+* predicción combinada de demanda de recarga y disponibilidad de energía solar para programación inteligente de EV chargers.
 
-### 6. Integración de tecnologías y servicios
+### 6\. Integración de tecnologías y servicios
 
-En esta fase se ensamblan todos los elementos necesarios:
+Se ensamblan los componentes necesarios:
 
-* conectores de interoperabilidad,  
-* identidades verificables,  
-* catálogos y descripciones semánticas,  
-* servicios de gobernanza y auditoría,  
-* infraestructura de computación segura.
+* conectores de interoperabilidad (EDC/IDS),  
+* identidades verificables y wallets Web3,  
+* catálogos federados con metadatos FAIR,  
+* servicios de gobernanza y compliance,  
+* Data Rooms y Compute-to-Data,  
+* infraestructura de auditoría y registro DLT,  
+* mecanismos de enforcement de políticas.
 
-El objetivo es asegurar el ciclo completo del dato dentro del espacio de datos.
+El objetivo es garantizar que el ciclo completo del dato sucede dentro del data space sin pérdida de soberanía ni cumplimiento.
 
----
+### 7\. Despliegue y validación
 
-### 7. Despliegue y validación
+Cada caso de uso se valida dentro del data space Empower-X mediante:
 
-El caso de uso se integra en el espacio de datos RegenAg-X, donde se llevan a cabo:
+* pruebas funcionales e integración multi-actor,  
+* pruebas reales con políticas de acceso,  
+* ejecución segura Compute-to-Data sobre datos sensibles,  
+* verificaciones de cumplimiento GDPR, DGA, Data Act,  
+* pruebas de trazabilidad ZEAC/energía renovable,  
+* validación final por parte de todos los participantes.
 
-* pruebas funcionales,  
-* pruebas de acceso con políticas reales,  
-* validación de Compute-to-Data,  
-* verificaciones de cumplimiento y trazabilidad,  
-* y aceptación final de los participantes.
+Ejemplos validados en Rubí:
 
-Solo cuando todo esto se valida, el caso pasa a operación.
+* Trazabilidad 100% renovable en recarga EV con ZEAC.   
+* Simulación operacional del PED integrando energía, movilidad y clima. 
 
----
+### 8\. Operación, escalado y mejora continua
 
-### 8. Operación, escalado y mejora continua
+Una vez operativo:
 
-Con el caso ya operativo:
+* se miden beneficios (energéticos, económicos, ambientales);  
+* se incorporan nuevos datasets (clima, movilidad, edificios, redes);  
+* se suman nuevos actores (CPOs, DSOs, comunidades);  
+* se activa la interoperabilidad con otros data spaces (CEEDS, Mobility, Built Environment);  
+* el caso se replica a otros territorios.
 
-* se mide el valor generado,  
-* se identifican mejoras,  
-* se amplía el caso a nuevos actores o datasets,  
-* y se integran nuevos servicios o algoritmos.
+Este ciclo impulsa la expansión federada del espacio de datos energético europeo.
 
-Este ciclo permite que el espacio de datos crezca **federadamente**, sin perder soberanía ni control.
+## Herramientas metodológicas para evaluar y diseñar casos de uso
 
----
+### 1\. Evaluación de viabilidad
 
-## Evaluación y diseño de casos de uso: herramientas metodológicas
+Antes de invertir recursos se analiza:
 
-Para apoyar este proceso, es habitual utilizar dos tipos de herramientas metodológicas:
+* el reto y la hipótesis de valor,  
+* el potencial energético/urbano,  
+* el impacto económico o social,  
+* los requisitos de colaboración,  
+* riesgos, dependencia tecnológica y complejidad,  
+* decisión go/no-go.
 
-### 1. Evaluación de viabilidad
+### 2\. Diseño detallado del caso
 
-Ayuda a determinar si un caso de uso tiene sentido antes de invertir recursos. Incluye:
+Si es viable, se detallan:
 
-* identificación del reto,  
-* análisis del valor añadido (económico, ambiental, social),  
-* estudio de la colaboración necesaria,  
-* análisis de riesgos y complejidad,  
-* decisión final de avanzar o descartar.
-
-### 2. Diseño detallado del caso
-
-Una vez confirmada la viabilidad, se profundiza en:
-
-* alcance,  
-* funcionalidades,  
-* requisitos legales y técnicos,  
-* recursos necesarios,  
+* alcance exacto,  
+* actores y roles energéticos (DSO, CPO, municipio, prosumidores…),  
+* requisitos técnicos, legales y organizativos,  
 * arquitectura de integración,  
-* definición de políticas de acceso y uso.
+* modelos de políticas de acceso y uso,  
+* recursos necesarios y roadmap.
 
-La combinación de ambas herramientas permite pasar de una idea a un caso de uso implementable y escalable dentro del dataspace.
+Permite transformar una idea en un caso de uso implementable dentro de Empower-X y replicable en otros territorios europeos.

@@ -1,176 +1,180 @@
 ---
-title: Governance model
-sidebar_label: Governance model
+title: "Empower-X Governance Model"
+sidebar_label: "Governance"
 ---
 
-# RegenAg-X Governance Model
+# Empower-X Governance Model
 
-## 1. General Principles
+## 1\. General Principles
 
-RegenAg-X is built on an **Organizational Governance** model designed to coordinate decision-making, define strategic and operational objectives, and ensure effective collaboration across all stakeholders involved in the data space.
+Empower-X is built on an **Organisational Governance Model** designed to coordinate decision-making and define strategic and operational objectives within the energy data space, ensuring equitable participation of all actors and the technical, regulatory and operational sustainability of the ecosystem.  
+A **Data Space Authority** will be established, responsible for:
 
-A **Data Space Authority** is established as the entity responsible for operating and maintaining this governance framework, managing participant onboarding, handling disputes, and ensuring rule compliance.  
-**Zertifier** will act as the **Data Space Authority** throughout the entire demonstrator phase.
+* operating and maintaining the governance framework,  
+* managing participant onboarding and offboarding,  
+* resolving disputes,  
+* supervising regulatory compliance,  
+* ensuring operational coherence across the ecosystem.
 
-As the ecosystem matures, the governance model will progressively evolve toward a **shared governance structure**, where farmers, cooperatives, technology providers and research organizations participate actively in decision-making. In later phases, options for establishing a neutral and sustainable long-term governance entity will be explored.
+Throughout the lighthouse phase, **Zertifier will act as the Data Space Authority**.  
+As the ecosystem matures, the governance model will progressively evolve towards **shared governance**, involving municipalities, energy operators, energy communities, mobility actors, technology providers and research organisations. In later phases, organisational models enabling a neutral, sustainable entity aligned with European data-space federation standards will be evaluated.
 
----
+## 2\. Data-Sharing Governance
 
-## 2. Data Sharing Governance
-
-Data Sharing Governance regulates access to datasets, services, algorithms and compute capabilities inside the data space.
-
-As the Data Space Authority, **Zertifier** will:
+Data-sharing governance regulates access to datasets, services, algorithms and compute capabilities within the energy data space.  
+As the Governance Authority, Zertifier will:
 
 * define the initial participation criteria,  
-* set the rules for publishing datasets and services,  
-* supervise usage policies and access permissions,  
-* ensure compliance with the European regulatory framework (GDPR, DGA) and national regulations.
+* establish publication rules for datasets and services,  
+* supervise access, usage and permission policies,  
+* ensure compliance with GDPR, DGA, the Data Act, energy regulation and sector-specific norms.
 
-**Initial Participants**
+### Initial Participants
 
-The initial participants are:
+The initial phase will involve:
 
-* the **Tech4RegenAg consortium members**, and  
-* the **farmers and cooperatives involved in the Azores (Portugal) pilot projects**.
+* members of the **DS4SSCC-DS4PED** consortium,  
+* the City of Rubí and actors associated with the PED pilot,  
+* local energy communities,  
+* charging operators, mobility platforms and energy providers involved in the pilot.
 
-These participants have already expressed formal support through letters of intent and operational agreements.
+These participants have formally expressed their commitment through agreements and letters of support.  
+The onboarding of new participants will prioritise:
 
-New participants will be prioritised based on:
+* contributions relevant to energy, mobility and smart-city use cases,  
+* providers leveraging Compute-to-Data and data sovereignty mechanisms,  
+* actors contributing data or services with strong monetisation, interoperability or innovation potential.
 
-* complementarity with existing use cases,  
-* potential for new high-value data space use cases,  
-* ability to exploit data sovereignty mechanisms via **Compute-to-Data**,  
-* and contributions with strong monetization or interoperability potential.
+## 3\. Rules for Data and Service Usage
 
----
+Usage conditions must:
 
-## 3. Rules for Data and Service Sharing
+* align with the needs of the energy and urban sectors,  
+* respect GDPR, DGA, the Data Act, energy regulation and municipal norms,  
+* use expressive and auditable policies based on smart contracts,  
+* enable full traceability via Web3, VCs and DLT.
 
-All resources published inside the data space must:
+Policies will define:
 
-* be aligned with the agrifood domain,  
-* comply with the European regulatory framework,  
-* include clear and machine-readable policies,  
-* support traceability through Web3 and distributed ledger technologies.
-
-Usage policies will define:
-
-* who can access a resource,  
+* who may access each resource,  
 * under which conditions,  
-* with which algorithms,  
-* and with what reuse restrictions.
+* with which algorithms (e.g., forecasting, flexibility, certification),  
+* with which reuse, expiry or aggregation restrictions.
 
----
+## 4\. Two-Level Governance Structure
 
-## 4. Two-Level Governance Structure
-
-The governance of RegenAg-X operates at two complementary levels:
+Empower-X governance is organised at two complementary levels:
 
 ### 4.1. Global Governance
 
-Global Governance is defined by the **Ocean Enterprise Collective**, which establishes:
+Based on the rules of the **Ocean Enterprise Collective** and aligned with:
 
-* interoperability rules across connected data spaces,  
-* standards for secure computation and Compute-to-Data,  
-* verification and auditability through Web3 credentials and ledgers,  
-* alignment with the **Gaia-X Trust Framework** for federated data sharing.
+* the **Gaia-X Trust Framework**,  
+* the **CEEDS Blueprint**,  
+* **IDS/EDC** interoperability standards.
 
-Global governance is shared by the “federators” — the entities operating or participating in interconnected data spaces.
+Global Governance is responsible for:
 
-Zertifier also participates in Gaia-X governance forums, ensuring alignment with European specifications and open components for data-space federation.
+* defining interoperability rules across federated data spaces,  
+* managing Compute-to-Data and Data Room standards,  
+* ensuring traceability and verifiability via Web3 and DLT,  
+* maintaining compatibility with energy, urban and mobility ecosystems.
 
-### 4.2. RegenAg-X Governance (demonstrator level)
+This governance is shared by the **federators**, i.e., operators and participants of the interconnected data spaces.  
+Zertifier participates actively in Gaia-X governance forums, ensuring alignment with European specifications for the federation of energy data spaces.
 
-This level defines how the RegenAg-X demonstrator is operated and managed.
+### 4.2. Empower-X Governance (Lighthouse Level)
 
-**Main Roles**
+This level defines the specific operational rules of the lighthouse within the **DS4SSCC-DS4PED** project (Rubí pilot).
 
-* **Ecosystem Promoter:**  
-  **Zertifier**, responsible for defining the governance framework, managing onboarding/offboarding, and coordinating operations.  
-* **Data Space Authority:**  
-  **Zertifier**, ensuring compliance, dispute resolution and operational continuity.  
-* **Data Space Operators:**  
-  * Zertifier (Web3, verifiable identities, marketplace, smart-contract governance)  
-  * Compute-to-Data and Data Room providers meeting DGA-aligned requirements  
-    (Open to any infrastructure provider fulfilling the technical and regulatory guarantees.)  
-* **Providers and Consumers:**  
-  Tech4RegenAg consortium members and the Azores pilot farmers, with future expansion based on the demonstrator’s needs.
+#### *Main Roles*
 
-**Indirect Governance Actors**
+**Ecosystem Promoter:**  
+Zertifier, responsible for designing the governance model, managing onboarding and coordinating operations.  
+**Data Space Authority:**  
+Zertifier, guaranteeing regulatory compliance, dispute resolution and operational integrity.  
+**Data Space Operators:**
 
-Key open-source communities whose components underpin RegenAg-X:
+* Zertifier (verifiable identities, Web3, marketplace, smart-contract governance),  
+* HPC/Cloud providers offering Compute-to-Data or Data Rooms aligned with the DGA,  
+* Municipal and urban operators (e.g., the City of Rubí),  
+* Energy providers, mobility platforms and authorised aggregators.
+
+**Service Providers and Consumers:**  
+Consortium entities, energy and mobility operators, energy communities and developers of smart services.
+
+#### *Key Indirect Actors*
+
+Open-source communities supporting federation and core components:
 
 * Gaia-X  
 * Ocean Enterprise Collective  
 * Ocean Protocol  
-* Eclipse Dataspace Components (EDC)
+* Eclipse Dataspace Components (EDC)  
+* Smart Data Models and SAREF
 
-These communities provide shared interoperability, security and semantic tooling for federated data spaces.
+These communities provide the standards and modules required for interoperability, semantics, secure computation and auditability.
 
----
+## 5\. Organisational Model
 
-## 5. Organizational Model
+The demonstrator adopts a **network-based organisational model**, built on:
 
-RegenAg-X adopts a **network-based organizational model**, characterised by:
-
-* consensus-driven collaboration,  
+* participant consensus,  
 * reciprocity in data and service exchange,  
-* collective benefit as a guiding principle.
+* a collective benefit and urban-impact orientation.
 
-The governance will evolve through three stages:
+The governance model will evolve through three phases:
 
-1. **Leadership Governance (initial phase)**  
-   Zertifier acts as the central authority and coordinator.  
-2. **Shared Governance (maturing phase)**  
-   Participants progressively assume decision-making responsibilities.  
-3. **Neutral Governance Entity (long-term phase)**  
-   Participants may decide to establish a **Network Administrative Organization (NAO)** or equivalent neutral body.
+1. **Leadership Phase (initial model)**  
+   Zertifier acts as the central coordination authority.  
+2. **Shared Governance Phase**  
+   Municipalities, energy operators, urban platforms and energy communities progressively assume strategic decision-making roles.  
+3. **Maturity Phase**  
+   A **Network Administrative Organization (NAO)** or equivalent neutral entity may be established.
 
----
+## 6\. Leadership Governance Model (Initial Phase)
 
-## 6. Leadership Governance Model (initial demonstrator phase)
-
-During the funded demonstrator phase, RegenAg-X will operate under a **Leadership Governance Model**, with Zertifier coordinating all governance tasks.
+During the funded lighthouse phase, Empower-X will operate under a centralised leadership model.
 
 ### 6.1. Organisational Interoperability
 
-* Open admission to any agrifood actor meeting technical requirements.  
-* Priority for participants who strengthen existing use cases or enable new ones.
+* Open admission to any energy, urban or mobility actor meeting technical requirements.  
+* Priority for providers enhancing or expanding PED use cases.
 
 ### 6.2. Business Models
 
-* Business autonomy through **smart contract–based agreements**.  
-* Providers and consumers independently set prices, conditions and permissions.
+* Contractual freedom enabled by smart contracts,  
+* Full autonomy to define pricing, permissions, usage conditions and service models.
 
-### 6.3. Inter-Data-Space Interoperability
+### 6.3. Inter-Data-Space Relations
 
-* Native connection to the **Ocean Enterprise Collective federated network**.  
-* Cross-sector and multi-data-space interoperability aligned with Gaia-X specifications.
+* Native connection to the Ocean Enterprise Collective,  
+* Cross-sector interoperability (energy, mobility, climate, buildings) enabled by Gaia-X specifications.
 
 ### 6.4. Semantic Interoperability
 
-* Service and data descriptions using Gaia-X Trust Framework vocabularies.  
-* Use of sector-specific and FAIR-aligned standards.  
-* Ontology-based resource definitions.
+* Use of Gaia-X Trust Framework vocabularies,  
+* CEEDS Blueprint, SAREF and Smart Data Models ontologies,  
+* FAIR-aligned and NGSI-LD-compatible descriptions.
 
 ### 6.5. Data Sovereignty
 
-* Usage policies based on Ocean Enterprise smart-contract templates.  
-* Progressive integration with Gaia-X policy languages.  
-* Fine-grained control over access and algorithm execution.
+* Usage policies based on smart contracts,  
+* Fine-grained control over access, execution and reuse,  
+* Progressive integration with Gaia-X policy languages.
 
 ### 6.6. Formats
 
-* Use of W3C **Verifiable Credentials (VCs)** for identities, datasets and services.  
-* Interoperable metadata models across all components.
+* Use of Verifiable Credentials (VCs) for identities and datasets,  
+* Interoperable metadata models compliant with EDC/IDS and W3C.
 
 ### 6.7. Compliance
 
-* Conformance ensured using services compatible with the **Gaia-X Digital Clearing House (GXDC)** or equivalent verification services.
+* Compliance services compatible with the Gaia-X Digital Clearing House (GXDC),  
+* Automated auditing through DLT and verifiable logs.
 
-### 6.8. Technical Interoperability
+### 6.8. Technological Interoperability
 
-* Architecture based on digital data federation.  
-* Use of open-source components from the Ocean Enterprise and Gaia-X ecosystems.  
-* Guaranteed data sovereignty, traceability and end-to-end auditability.
+* Architecture based on federated digital data infrastructure,  
+* Use of open-source components from the Ocean Enterprise and Gaia-X ecosystems,  
+* Guaranteed end-to-end sovereignty, traceability and auditability.

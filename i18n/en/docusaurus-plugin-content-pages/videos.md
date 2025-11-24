@@ -8,12 +8,12 @@ slug: /videos
 
 Discover the project through short walkthroughs, in‑depth talks, and real demos.
 
-## Discover Regenag‑x
+## Discover Empower‑X
 
 <div className="video-wrapper">
   <iframe
-    src="https://www.youtube.com/embed/PUz8A-Ld0kA"
-    title="Discover Regenag‑x"
+    src="https://www.youtube.com/embed/K1szhWs3U54"
+    title="Discover Empower‑X"
     className="video-iframe"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

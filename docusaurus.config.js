@@ -49,7 +49,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'grexach-zertifier', // Your GitHub org/user name.
-  projectName: 'regenag-x-docs', // Your repo name.
+  projectName: 'empower-x-docs', // Your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
@@ -95,9 +95,9 @@ const config = {
         // Remove text title so only the logo is shown in the topbar
         title: '',
         logo: {
-          alt: 'RegenAg-x Logo',
-          src: 'img/RegenagxLight.png',
-          srcDark: 'img/RegenagxDark.png',
+          alt: 'Empower‑X Logo',
+          src: 'img/logo_empowerX.png',
+          srcDark: 'img/logo_empowerX.png',
           // Use `href` (logo does not support `to`)
           href: 'documentacion/about/',
           target: '_self',

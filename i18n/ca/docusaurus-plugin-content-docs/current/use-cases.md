@@ -1,160 +1,156 @@
 ---
-title: Desenvolupament de casos d'ús en espais de dades agroalimentaris
-sidebar_label: Desenvolupament de casos d'ús
+title: "Desenvolupament de casos d’ús en espais de dades energètics"
+sidebar_label: "Casos d'Ús"
 ---
 
-# Desenvolupament de casos d’ús en espais de dades agroalimentaris
+# Desenvolupament de casos d’ús en espais de dades energètics
 
-Els espais de dades permeten construir solucions col·laboratives on diferents actors del sector agroalimentari poden combinar conjunts de dades, algoritmes i serveis dins d’un marc compartit de confiança. Aquesta secció explica com es dissenyen i es despleguen casos d’ús dins de l’ecosistema **RegenAg-X**, seguint una metodologia pràctica i orientada a resultats, alineada amb els principis europeus de sobirania del dada i arquitectures federades interoperables.
+Els espais de dades permeten construir solucions col·laboratives on diferents actors de l’ecosistema energètic, urbà i de mobilitat poden combinar dades, algoritmes i serveis dins d’un marc compartit de confiança. Aquest apartat descriu com es dissenyen i es despleguen casos d’ús dins de l’ecosistema Empower-X, seguint una metodologia pràctica i orientada a resultats, coherent amb els principis europeus d’interoperabilitat, sobirania del dada i federació entre territoris.
 
-Com a referència operativa real, RegenAg-X disposa d’un **espai de dades en producció a les Illes Açores (Portugal)**, on productors locals publiquen dades de sòl i permeten l’execució d’algoritmes en **Data Rooms segures** mitjançant **Compute-to-Data**.  
-Les dades **no surten mai de l’entorn protegit**, i l’accés es controla mitjançant polítiques verificables i auditables. A l’apartat de *Casos* es poden consultar exemples reals, que s’aniran ampliant a mesura que s’incorporin noves parcel·les, serveis i datasets.
+Empower-X opera com a demostrador del **Data Space for Positive Energy Districts (DS4PED)**, vinculat al projecte europeu DS4SSCC-DEP.  
+En el pilot de Rubí, els sistemes municipals, les plantes solars públiques, els punts de recàrrega, les comunitats energètiques, la mobilitat elèctrica i la plataforma ZertiPower comparteixen dades mitjançant un espai de dades federat que garanteix traçabilitat, sobirania i computació segura.
 
-Els casos d’ús són el mecanisme principal per donar resposta a reptes concrets del sector agroalimentari, aprofitant el valor que emergeix quan les dades es comparteixen entre diversos actors. Per assolir-ho, es basen en:
+Els casos d’ús són el mecanisme principal per resoldre reptes energètics i urbans mitjançant l’intercanvi federat de dades. Es basen en:
 
-* una infraestructura tècnica comuna (identitats Web3, catàlegs, connectors, Data Rooms, marketplace),  
-* un model de governança compartit,  
-* i polítiques transparents que garanteixen la sobirania del dada i la interoperabilitat.
+* **una infraestructura tècnica comuna** (identitats Web3, catàlegs semàntics, connectors EDC/IDS, Data Rooms, Compute-to-Data, marketplace),  
+* **un model de governança compartit**,  
+* **polítiques d’ús verificables** que garanteixen sobirania del dada, privadesa i interoperabilitat.
 
----
+## Metodologia per desenvolupar un cas d’ús a Empower-X
 
-## Metodologia per desenvolupar un cas d’ús
+El desenvolupament d’un cas d’ús en un espai de dades energètic segueix un cicle estructurat en vuit fases. Aquest cicle garanteix una solució factible, segura, interoperable i escalable dins d’un ecosistema federat i multiactor.
 
-El desenvolupament d’un cas d’ús dins d’un espai de dades segueix un procés estructurat en fases. Aquest procés assegura que la solució és viable, escalable i coherent amb els principis tècnics i organitzatius dels espais de dades europeus.
+### 1\. Identificació del repte i de l’oportunitat
 
-A continuació es descriuen les **vuit fases** utilitzades a RegenAg-X, formulades de manera original però compatibles amb les bones pràctiques de l’Oficina del Dada i de la comunitat europea de dataspaces.
+Els participants detecten una necessitat compartida relacionada amb:
 
----
+* integració de renovables distribuïdes,  
+* traçabilitat energètica en temps real,  
+* gestió de flexibilitat,  
+* mobilitat elèctrica i planificació d’infraestructures,  
+* eficiència energètica urbana,  
+* optimització de xarxes de recàrrega,  
+* coordinació entre actors (municipis, DSOs, comunitats energètiques, operadors de mobilitat).
 
-### 1. Identificació del repte i de l’oportunitat
+Exemples del pilot de Rubí:  
+– garantir recàrrega 100% renovable amb ZEAC i traçabilitat en temps real;  
+– tokenitzar excedents fotovoltaics municipals per equilibrar el consum nocturn.
 
-Els participants detecten una necessitat o un àmbit de millora que pot resoldre’s mitjançant la combinació o compartició de dades.  
-Les motivacions més habituals inclouen:
+### 2\. Comprensió i estructuració de les dades disponibles
 
-* crear un nou producte o servei,  
-* millorar l’eficiència operativa o automatitzar processos,  
-* afrontar reptes sectorials que requereixen col·laboració.
+S’analitza:
 
----
+* quines dades existeixen i qui en té la titularitat,  
+* la seva qualitat, granularitat i freqüència,  
+* els models semàntics aplicables (SAREF, Smart Data Models, NGSI-LD, CEEDS Blueprint),  
+* quines dades requereixen execució Compute-to-Data (p. ex. consums elèctrics individuals o mobilitat personal).
 
-### 2. Comprensió i estructuració de les dades disponibles
+Es defineix el model de dades i si cal aplicar:
 
-En aquesta fase s’analitza:
+* predicció energètica o de mobilitat,  
+* simulació urbana,  
+* agregació de flexibilitat,  
+* algoritmes d’optimització.
 
-* quines dades existeixen,  
-* qui n’és el titular,  
-* quin nivell de qualitat presenten,  
-* i com cal organitzar-les per donar suport al cas d’ús.
+### 3\. Alineament entre participants
 
-També es defineixen:
-
-* el model de dades,  
-* les fonts que s’utilitzaran,  
-* i si s’empraran tècniques avançades com IA, predicció o simulació.
-
----
-
-### 3. Alineament entre participants
-
-Els actors implicats acorden el marc de col·laboració:
+Els actors del cas d’ús estableixen un marc compartit:
 
 * condicions de participació,  
-* polítiques d’accés i d’ús,  
-* expectatives de valor,  
-* i els elements bàsics de governança.
+* polítiques d’accés i permisos,  
+* valor esperat,  
+* rols i responsabilitats,  
+* mecanismes de governança i control.
 
-L’objectiu és establir unes bases clares i compartides abans de començar la part tècnica.
+Aquest pas estableix una base comuna de confiança abans d’iniciar la integració tècnica.
 
----
+### 4\. Disseny funcional i tècnic
 
-### 4. Disseny funcional i tècnic
+El document de disseny defineix:
 
-Es redacta un document de disseny que especifica:
+* la lògica funcional del cas d’ús,  
+* les fonts de dades i els fluxos d’intercanvi,  
+* els components a utilitzar (Compute-to-Data, Data Rooms, marketplace, catàlegs federats, connectivitat EDC/IDS),  
+* els requisits legals (GDPR, DGA, Data Act),  
+* els requisits semàntics i d’integració.
 
-* la finalitat i el flux operatiu del cas d’ús,  
-* quins components de l’espai de dades s’utilitzaran (Compute-to-Data, Data Rooms, catàlegs, marketplace…),  
-* les necessitats d’integració i requisits d’interoperabilitat.
+Aquest disseny es basa en patrons del **CEEDS Blueprint** i en els requisits dels pilots DS4PED.
 
-Aquest disseny pot reutilitzar patrons existents o components modulars dels ecosistemes Gaia-X i Ocean Enterprise.
+### 5\. Desenvolupament de la solució
 
----
+Es construeix la solució:
 
-### 5. Construcció de la solució
+* desenvolupament o adaptació d’algoritmes (flexibilitat, forecasting, certificació),  
+* creació de pipelines de dades en temps real,  
+* integració amb sistemes municipals, CPOs o comunitats energètiques,  
+* definició de mètriques (energia renovable, eficiència, KPIs de mobilitat).
 
-A partir del disseny aprovat, es desenvolupa la solució:
+Exemples:
 
-* implementació o adaptació d’algoritmes,  
-* creació de pipelines de dades,  
-* automatització de processos,  
-* definició de mètriques i quadres de comandament.
+* algoritme de generació de ZEAC a partir de producció solar municipal;  
+* predicció combinada de demanda de recàrrega i disponibilitat solar.
 
-Sempre que és possible, es reutilitzen components ja existents per accelerar el desenvolupament.
+### 6\. Integració de tecnologies i serveis
 
----
+S’integren:
 
-### 6. Integració de tecnologies i serveis
-
-En aquesta fase s’integren tots els elements necessaris per habilitar el cicle complet del dada:
-
-* connectors d’interoperabilitat,  
-* identitats verificables,  
-* catàlegs semàntics i metadades,  
+* connectors EDC/IDS,  
+* identitats verificables i wallets Web3,  
+* catàlegs federats amb metadades FAIR,  
 * serveis de governança i auditoria,  
-* infraestructura de computació segura (Compute-to-Data, Data Rooms).
+* Data Rooms i Compute-to-Data,  
+* infraestructura DLT per a ZEAC, EKW i certificació energètica.
 
-L’objectiu és assegurar el funcionament d’extrem a extrem dins de l’espai de dades.
+L’objectiu és garantir el cicle complet del dada dins del data space sense perdre sobirania.
 
----
+### 7\. Desplegament i validació
 
-### 7. Desplegament i validació
-
-El cas d’ús s’incorpora a l’espai de dades RegenAg-X, on es duen a terme:
+Cada cas d’ús es valida dins d’Empower-X mitjançant:
 
 * proves funcionals i d’integració,  
 * proves d’accés amb polítiques reals,  
-* validació del Compute-to-Data,  
+* validació Compute-to-Data,  
 * comprovacions de conformitat i traçabilitat,  
-* i validació final per part dels participants.
+* validació final per part de tots els participants.
 
-Només després d’aquestes verificacions el cas d’ús passa a operació.
+Exemples validats a Rubí:
 
----
+* traçabilitat 100% renovable en recàrrega EV amb ZEAC;  
+* simulació operativa del PED integrant energia, mobilitat i clima.
 
-### 8. Operació, escalat i millora contínua
+### 8\. Operació, escalat i millora contínua
 
-Un cop operatiu:
+Quan el cas entra en operació:
 
-* es mesura el valor generat,  
-* s’implementen millores,  
-* s’estén el cas d’ús a nous actors o datasets,  
-* i s’hi incorporen nous serveis o algoritmes.
+* se’n mesura el valor energètic, econòmic i ambiental,  
+* s’incorporen noves fonts de dades i nous actors,  
+* s’integra amb altres data spaces (CEEDS, Mobilitat, Edificació),  
+* es replica en nous territoris.
 
-Aquest cicle permet que l’espai de dades creixi de manera **federada** preservant sempre la sobirania i la confiança.
+Aquest cicle permet fer créixer l’espai de dades mantenint sempre sobirania, traçabilitat i federació.
 
----
+## Eines metodològiques per a l’avaluació i disseny de casos d’ús
 
-## Eines per a l’avaluació i el disseny de casos d’ús
+### 1\. Avaluació de viabilitat
 
-Per donar suport al procés, s’utilitzen habitualment dos tipus d’eines metodològiques:
+Analitza:
 
-### 1. Avaluació de viabilitat
-
-Permet determinar si un cas d’ús és adequat abans de destinar-hi recursos. Inclou:
-
-* identificació del repte,  
-* anàlisi del valor esperat (econòmic, ambiental, social),  
-* requeriments de col·laboració,  
+* el repte i la hipòtesi de valor,  
+* el potencial energètic i urbà,  
+* els beneficis econòmics o socials,  
+* els requisits de col·laboració,  
 * riscos i complexitat,  
-* decisió final d’avançar o descartar la idea.
+* decisió d’avançar (go/no-go).
 
-### 2. Disseny detallat
+### 2\. Disseny detallat
 
-Si la viabilitat és positiva, es defineix el cas d’ús amb detall:
+Si és viable, es defineix:
 
-* abast i objectius,  
-* funcionalitats necessàries,  
-* requisits tècnics, organitzatius i legals,  
+* l’abast precís,  
+* els rols energètics (DSO, CPO, municipi, prosumidors),  
+* requisits tècnics, legals i organitzatius,  
 * arquitectura d’integració,  
-* polítiques d’accés i d’ús.
+* polítiques d’accés i d’ús,  
+* roadmap i recursos necessaris.
 
-La combinació d’aquestes dues eines permet passar d’una idea inicial a un cas d’ús escalable i implementable dins del dataspace.
+Aquest procés transforma una idea inicial en un cas d’ús implementable i escalable dins d’Empower-X i replicable en altres territoris.

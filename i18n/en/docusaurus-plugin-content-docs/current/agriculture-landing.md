@@ -1,64 +1,91 @@
 ---
-title: "Data spaces for agriculture"
-sidebar_label: "Introduction (agri)"
+title: "Data Spaces for the Energy Sector and Smart Cities"
+sidebar_label: "Introduction"
 ---
 
-# Introduction (AgriFood)
+# Introduction
 
-## Data Spaces for the Agrifood Industry
+## Data Spaces for the Energy Sector and Smart Cities
 
-The agrifood sector generates massive volumes of data from multiple sources —soil, climate, IoT sensors, machinery, satellite imagery, livestock management, traceability and certification— distributed across a wide range of heterogeneous actors.  
-An **agrifood data space** enables these datasets to be integrated, shared and processed in a federated, secure and auditable environment, ensuring full data sovereignty, semantic interoperability, transparent governance and trusted monetization mechanisms.
+The urban energy ecosystem generates massive volumes of data from multiple sources —renewable generation, smart meters, electric mobility, IoT sensors, public buildings, charging networks, climatology, urban infrastructure and municipal platforms— distributed across a wide diversity of actors.  
+An energy data space enables this information to be integrated, shared and processed in a federated, secure and auditable environment, ensuring **data sovereignty, semantic interoperability, transparent governance and reliable mechanisms for monetisation and reuse**.
 
----
+## How the energy sector advances through a federated data space
 
-## How an Agrifood Data Space Benefits the Sector
+### Interoperability across all ecosystem actors
 
-**Interoperability across the entire ecosystem**
+Standardised connectivity between municipalities, grid operators, energy communities, mobility platforms, flexibility aggregators, service companies, infrastructure manufacturers and public administrations.  
+It eliminates silos, incompatible formats and proprietary dependencies, enabling the sharing of critical data —consumption, generation, charging-point status, mobility patterns, grid congestion— under clear and auditable policies.
 
-Standardised data exchange between farms, cooperatives, input suppliers, digital platforms, laboratories, certifiers and public administrations, eliminating silos and incompatible formats.
+### Privacy preserved through Compute-to-Data and secure Data Rooms
 
-**Privacy-preserving analytics with Compute-to-Data and secure Data Rooms**
+Algorithms move to the data using **Compute-to-Data**, allowing advanced analytics, prediction and optimisation without exposing sensitive information such:
 
-Algorithms move to the data—rather than data being transferred—through **Compute-to-Data**, enabling advanced analytics without exposing sensitive information.  
-**Data Rooms** provide secure, isolated and auditable environments where data remains fully under the owner’s control even during computation. They are essential for highly sensitive domains such as soil indicators, livestock health, financial records or commercial information.
+* individual energy consumption,  
+* personal mobility,  
+* building data,  
+* energy-community balances.
 
-**Flexible and verifiable business models**
+**Data Rooms** provide secure and auditable environments where the data always remains under the owner’s control, even during processing. They are essential for sensitive scenarios such as energy certification, flexibility demand, citizen data or simulations of critical infrastructure.
 
-Usage policies, smart contracts, pay-per-execution, subscription models and incentive mechanisms for data contribution.  
-All transactions are recorded in a distributed ledger, enabling transparent accounting, traceability and end-to-end auditability.
+### Verifiable and flexible business models
 
-**Governance and granular control by design**
+Usage policies, smart contracts, pay-per-execution models, subscriptions and incentive mechanisms based on data sharing (e.g., renewable surpluses, available flexibility, infrastructure data).  
+A **distributed ledger (DLT)** ensures full traceability, automatic settlement and end-to-end auditability of every operation —from flexibility calculations to renewable-energy certification or surplus tokenisation (ZEAC).
 
-Web3 verifiable identities, revocable permissions, traceable access logs and automated compliance checks allow precise control over who accesses which data, under what conditions and for which purposes.
+### Governance and granular control by design
 
----
+Empower-X enables:
 
-## Why Now: Market Readiness and Technological Maturity
+* Web3 verifiable identities,  
+* revocable permissions,  
+* access traceability,  
+* automated compliance validation,  
+* clear and auditable usage rules.
 
-**European standardisation and certification (Gaia-X)**
+This provides precise control over **who accesses**, **which data**, **under what conditions** and **for what purpose**, strengthening trust, regulatory security and technological neutrality throughout the energy ecosystem.
 
-The Gaia-X Trust Framework, IDS connectors and Verifiable Credentials reduce technical friction and provide institutional-grade trust for cross-stakeholder data sharing.
+## Why now is the right moment
 
-**Decentralised markets and secure computation (Ocean Enterprise Collective)**
+### European standardisation and certification (Gaia-X)
 
-The Ocean Enterprise Collective provides interoperable Compute-to-Data, verifiable Data Rooms and automated monetization mechanisms without moving or replicating data.  
-Each dataset can be published with explicit policies and fine-grained control over which algorithms may run against it.
+Infrastructures based on the **Gaia-X Trust Framework**, IDS/EDC connectors and **Verifiable Credentials** reduce technical friction and enable institutional-grade trust in complex energy, urban and mobility data-exchange scenarios.
 
-**Open ontologies and sector-specific data models**
+### Decentralised markets and secure computation (Ocean Enterprise Collective)
 
-Standards such as **SAREF**, **Smart Data Models**, and other FAIR-aligned vocabularies enable common semantics across IoT devices, farm machinery, earth observation and farm management systems.
+The Ocean Enterprise Collective enables:
 
-**Growing regulatory demand for transparency and auditability**
+* interoperable Compute-to-Data,  
+* verifiable Data Rooms,  
+* secure execution without data transfer,  
+* and automated monetisation through smart contracts.
 
-Environmental reporting, eco-scheme compliance, supply chain traceability and carbon accounting increasingly require infrastructures capable of verifying data provenance, transformations and access rights end-to-end.
+Each energy or urban dataset can be published with explicit policies and fine-grained control over which algorithms are authorised to run.
 
-**Evidence from real-world deployments**
+### Open ontologies and data models for the energy and urban sectors
 
-The initial deployment in the **Azores Islands (Portugal)** demonstrates the effectiveness of the model with:
+Standards such as **SAREF**, **Smart Data Models**, **NGSI-LD**, **CIM**, and the semantic models of the **CEEDS Blueprint** enable harmonisation of data from:
 
-* parcel-level soil analysis,  
-* Web3 verifiable identities for farmers,  
-* secure Data Rooms for sensitive data processing,  
-* fine-grained, policy-based access control,  
-* and analytics executed without data movement using Compute-to-Data.
+* smart meters,  
+* DERs (PV, batteries),  
+* charging points,  
+* climate and environmental sensors,  
+* urban infrastructure,  
+* municipal and e-mobility systems.
+
+### Transparency and auditability as new regulatory requirements
+
+Renewable-energy certification, carbon accounting, PEDs, mobility data, energy efficiency and Data Act requirements demand infrastructures capable of verifying **data origin, usage and transformations end-to-end**.  
+Empower-X meets these needs by providing **verifiable traceability**, **decentralised governance** and **fine-grained access control**.
+
+## Validation through real deployments
+
+The operational deployment in the **Rubí PED Pilot** demonstrates the value of the model:
+
+* integration of municipal solar production and charging stations,  
+* verifiable digital identities for energy actors,  
+* Data Rooms for secure processing of consumption data and certificates,  
+* policy-based access control,  
+* energy optimisation without moving data via Compute-to-Data,  
+* tokenisation of photovoltaic surpluses with real-time traceability,  
+* interoperability between municipal systems, energy platforms and electric mobility.

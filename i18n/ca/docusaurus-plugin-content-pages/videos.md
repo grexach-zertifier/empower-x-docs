@@ -8,12 +8,12 @@ slug: /videos
 
 Descobreix el projecte amb walkthroughs curts, xerrades en profunditat i demos reals.
 
-## Descobreix Regenag‑x
+## Descobreix Empower‑X
 
 <div className="video-wrapper">
   <iframe
-    src="https://www.youtube.com/embed/PUz8A-Ld0kA"
-    title="Descobreix Regenag‑x"
+    src="https://www.youtube.com/embed/K1szhWs3U54"
+    title="Descobreix Empower‑X"
     className="video-iframe"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

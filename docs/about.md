@@ -1,71 +1,127 @@
 ---
 slug: /about/
-title: Descubre RegenAg-x
-sidebar_label: Sobre RegenAg-x
+title: "Empower-X: Infraestructura de datos para energía inteligente"
+sidebar_label: "Sobre Empower-X"
 ---
 
-## RegenAg-X: Extrae el valor latente de los datos de tu explotación agraria
+# Empower-X: Infraestructura de datos para energía inteligente
 
-RegenAg-X es un centro demostrador de espacio de datos especializado en sistemas agrícolas regenerativos, diseñado para habilitar un entorno federado, seguro y auditable para el intercambio y procesamiento de datos agroalimentarios. Su objetivo es validar en un contexto real las capacidades técnicas, organizativas y económicas necesarias para operar un espacio de datos sectorial conforme a principios de soberanía del dato, computación segura y gobernanza descentralizada.
-
-El demostrador incorpora un modelo de acompañamiento técnico para facilitar la participación de agricultores, cooperativas, empresas tecnológicas y entidades de investigación que carecen de recursos para desarrollar casos de uso complejos de manera independiente. Esta aproximación permite evaluar con precisión las necesidades de integración, estandarización y orquestación de servicios en toda la cadena de suministro agroalimentaria.
+Empower-X es un centro demostrador de espacio de datos especializado en **Positive Energy Districts (PEDs)** y **Comunidades Energéticas**, diseñado para habilitar un entorno federado, seguro y auditable para el intercambio, procesamiento y activación de datos energéticos, de movilidad y urbanos. Su objetivo es validar en condiciones operativas reales las capacidades técnicas, organizativas y económicas necesarias para desplegar un **espacio de datos energético conforme a los principios europeos de soberanía del dato, gobernanza descentralizada e interoperabilidad entre territorios**.  
+El demostrador permite evaluar cómo un data space facilita la integración de energía renovable distribuida, la trazabilidad en tiempo real, la predicción del comportamiento energético, la gestión de flexibilidad, la movilidad eléctrica, la planificación urbana sostenible y la coordinación entre actores públicos, privados y comunitarios.  
+Empower-X actúa como infraestructura de referencia del proyecto europeo **DS4SSCC-DEP** y soporta pilotos urbanos como el **PED de Rubí**, integrando sistemas municipales, plataformas energéticas, redes de recarga, sensores urbanos, edificios públicos, comunidades energéticas y la plataforma de intercambio energético **ZertiPower**.
 
 ## Gobernanza y roles operativos
 
-RegenAg-X se rige por un código de gobernanza explícito que define responsabilidades, reglas de acceso y mecanismos de supervisión técnica. El modelo establece garantías de equidad, no discriminación y sostenibilidad, así como procedimientos para la aceptación de participantes y la gestión de políticas de uso.
+Empower-X se rige por un **marco explícito de gobernanza** que define responsabilidades, reglas de acceso, obligaciones técnicas y mecanismos de supervisión. El modelo garantiza:
 
-Los actores del espacio pueden asumir diferentes roles operativos:
+* equidad y no discriminación,  
+* soberanía y control del dato por parte de cada actor,  
+* cumplimiento regulatorio (DGA, GDPR, Data Act, metering data access),  
+* trazabilidad e integridad de todas las operaciones,  
+* interoperabilidad con otros data spaces europeos (CEEDS, Mobility, Built Environment).
 
-* **Proveedores de datos**  
-* **Consumidores de datos**  
-* **Proveedores de servicios de procesamiento**  
-* **Operadores de infraestructura y servicios ecosistémicos**  
-* **Intermediarios de confianza** encargados de la ejecución controlada de procesos sobre datos sensibles
+Los participantes en el espacio pueden asumir distintos roles operativos:
 
-La asignación de roles se gestiona mediante identidades verificables basadas en tecnologías Web3.
+* **Proveedores de datos**: edificios públicos, distribuidoras, comunidades energéticas, sensores urbanos, flotas de movilidad, CPO/EMSP, sistemas de información municipales.  
+* **Consumidores de datos**: aplicaciones de gestión energética, IA predictiva, planificación urbana, operadores de movilidad, empresas de servicios.  
+* **Proveedores de servicios de procesamiento**: analítica avanzada, modelado energético, algoritmos de predicción, simuladores de gemelos digitales, orquestadores de flexibilidad.  
+* **Operadores de infraestructura y servicios ecosistémicos**: nodos soberanos, catálogos federados, identidad digital, auditoría.  
+* **Intermediarios de confianza**: ejecución controlada de procesos sobre datos sensibles energéticos o ciudadanos (p. ej. consumo eléctrico, movilidad individual, patrones de demanda).
+
+La asignación de roles y permisos se gestiona mediante **identidades verificables** basadas en tecnologías Web3 y políticas de uso expresadas en contratos digitales auditables.
 
 ## Arquitectura técnica y computación segura
 
-El demostrador integra capacidades avanzadas de *compute-to-data* a través del **Ocean Enterprise Collective**, habilitando la ejecución de algoritmos directamente sobre los datos de origen sin transferirlos ni replicarlos. Este enfoque preserva la confidencialidad y asegura la soberanía del dato por diseño.
+El demostrador integra capacidades avanzadas de **compute-to-data** y ejecución distribuida a través del **Ocean Enterprise Collective**, habilitando que los algoritmos se ejecuten **directamente sobre los datos del origen**, sin necesidad de transferirlos ni replicarlos. Este enfoque permite cumplir con:
 
-![Modelo RegenAg-X](/img/about.png)
+* requisitos de privacidad y seguridad,  
+* reglas de acceso a datos energéticos (metering & consumption data),  
+* restricciones regulatorias de datos urbanos y movilidad,  
+* principios de soberanía del dato y federación europea.
 
-La arquitectura incluye:
+![Modelo Empower-X](/img/about.png)
 
-* **Protocolos Web3 y credenciales verificables (VC)** para autenticación, autorización y auditoría  
-* **Servicios de cómputo seguro** para análisis avanzado, IA y aprendizaje federado  
-* **Contenedores estandarizados (Docker/Kubernetes)** para encapsular servicios de procesamiento de datos  
-* **Mecanismos de trazabilidad y contabilización** mediante un libro mayor distribuido compatible con transacciones verificables y contratos inteligentes
+La arquitectura de Empower-X incorpora:
 
-Estas capacidades permiten implementar políticas de uso granular, validar el cumplimiento en tiempo real y habilitar modelos de monetización basados en acceso, consulta o ejecución.
+* **Protocolos Web3 y credenciales verificables (VCs)** para autenticación, autorización, auditoría y no repudio.  
+* **Servicios de computación segura** para analítica energética avanzada, IA, predicción de demanda, agregación de flexibilidad y aprendizaje federado entre ciudades.  
+* **Contenedores estandarizados (Docker/Kubernetes)** que encapsulan servicios energéticos (forecasting, movilidad, optimización de PEDs).  
+* **Un libro mayor distribuido (DLT)** que registra de manera verificable transacciones, trazabilidad energética, uso de datasets, gobernanza y contratos inteligentes.  
+* **Mecanismos de cumplimiento en tiempo real** que validan el uso permitido del dato, los permisos activos y las políticas de conservación y borrado.
+
+Estas capacidades habilitan modelos avanzados como:
+
+* certificación automatizada de energía renovable,  
+* tokenización de excedentes energéticos (ZEAC, EKW),  
+* optimización basada en IA bajo garantías de privacidad,  
+* orquestación de datos entre múltiples dominios (energía, movilidad, clima, edificios).
 
 ## Interoperabilidad y semántica
 
-RegenAg-X incorpora servicios de transformación semántica para garantizar interoperabilidad entre fuentes heterogéneas.  
-El modelo semántico incluye:
+Empower-X incorpora servicios semánticos para garantizar la interoperabilidad entre sistemas energéticos, urbanos y de movilidad, siguiendo las recomendaciones de:
 
-* Normalización de formatos (JSON, CSV, XML)  
-* Mapas ontológicos y vocabularios de dominio agricultores/regenerativos  
-* Validación automática de estructuras y condiciones de uso  
-* Publicación en catálogos federados para su descubrimiento y reutilización
+* **Common European Energy Data Space (CEEDS)**,  
+* **IDSA / DSSC Blueprint**,  
+* **Gaia-X**,  
+* **OneNet, BD4NRG, Enershare**,  
+* **SAREF, NGSI-LD, Smart Data Models**.
 
-Este enfoque permite que datos procedentes de sensores IoT, maquinaria agrícola, telemetría, sistemas de gestión agrícola o fuentes abiertas puedan agregarse y procesarse de manera uniforme.
+El modelo semántico de Empower-X incluye:
+
+* normalización de formatos (JSON-LD, CSV, XML, NGSI-LD),  
+* ontologías y vocabularios energéticos, de movilidad y urbanos,  
+* catálogos federados con metadatos FAIR,  
+* validación automática de contratos de uso y compatibilidad semántica,  
+* mapeo entre sistemas municipales, energéticos, geoespaciales y de movilidad eléctrica.
+
+Este enfoque permite integrar datos de:
+
+* smart meters,  
+* fotovoltaica, baterías y DERs,  
+* estaciones de recarga y movilidad compartida,  
+* edificios públicos e industriales,  
+* sensores ambientales y de clima,  
+* gemelos digitales urbanos.
 
 ## Economía del dato y mecanismos de incentivo
 
-El demostrador incorpora capacidades de economía del dato mediante los mecanismos del Ocean Enterprise Collective:
+Empower-X incorpora una **economía del dato energético** mediante los mecanismos del Ocean Enterprise Collective.  
+Las capacidades incluyen:
 
-* Publicación de datasets y servicios computacionales como activos tokenizados  
-* Ejecución bajo contratos inteligentes que gobiernan permisos y compensaciones  
-* Liquidación automática de transacciones mediante contabilidad verificable  
-* Modelos de incentivo para fomentar la participación y la aportación de datos de valor
+* publicación de datasets energéticos, urbanos y de movilidad como **activos tokenizados**,  
+* provisión de servicios computacionales (forecasting, optimización, simulación) bajo contratos inteligentes,  
+* compensación automática entre productores y consumidores de datos,  
+* modelos de incentivo para comunidades energéticas, municipios y operadores de servicios,  
+* mecanismos para compartir valor generado por analítica, predicción o certificación energética.
 
-La infraestructura de registro distribuido mantiene un historial auditable de todas las operaciones realizadas en el espacio de datos.
+La infraestructura DLT mantiene una trazabilidad auditable de:
+
+* accesos y cesiones de datos,  
+* permisos activos,  
+* ejecuciones de algoritmos sobre datos sensibles,  
+* transacciones energéticas y certificaciones verdes,  
+* uso y monetización de servicios.
 
 ## Disponibilidad de recursos
 
-RegenAg-X aloja tanto:
+Empower-X aloja:
 
-* **Recursos propietarios** compartidos bajo condiciones de uso definidas  
-* **Servicios computacionales avanzados** (analítica descriptiva, predictiva, prescriptiva)  
-* **Fuentes abiertas de alto valor** relevantes para agricultura regenerativa (observación terrestre, clima, suelos, biodiversidad, etc.)
+* **Recursos propietarios** compartidos bajo políticas de uso controladas (consumo eléctrico, datos de Comunidades Energéticas, movilidad, clima urbano, edificios).  
+* **Servicios computacionales avanzados**:  
+  * optimización energética,  
+  * predicción de generación/demanda,  
+  * modelado de flexibilidad,  
+  * análisis de movilidad eléctrica,  
+  * simulaciones de gemelos digitales.  
+* **Fuentes abiertas de alto valor**:  
+  * datos climáticos y satelitales,  
+  * mapas de irradiancia y potencial fotovoltaico,  
+  * inventarios de edificios y tipologías urbanas,  
+  * datos de calidad del aire, tráfico y emisiones.
+
+Todos los recursos son publicados siguiendo principios **FAIR** e incluyen metadatos técnicos, semánticos y de gobernanza que garantizan:
+
+* descubrimiento,  
+* interoperabilidad,  
+* auditabilidad,  
+* reutilización en múltiples servicios y ciudades.
